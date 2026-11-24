@@ -192,6 +192,44 @@ uv run pytest graph/02_traversal/bfs
 - [ ] [Symmetric Tree Check](tree/04_tree_properties/is_symmetric/README.md) · P1
 - [ ] [Identical Trees Check](tree/04_tree_properties/are_identical/README.md) · P1
 
+### Tree Paths
+
+- [ ] [Root-to-Leaf Paths](tree/05_tree_paths/root_to_leaf_paths/README.md) · P1
+- [ ] [Path Sum II](tree/05_tree_paths/path_sum_ii/README.md) · P1
+- [ ] [Longest Root-to-Leaf Path](tree/05_tree_paths/longest_root_to_leaf_path/README.md) · P1
+- [ ] [Root-to-Leaf Path Sum](tree/05_tree_paths/root_to_leaf_path_sum/README.md) · P1
+- [ ] [Path Sum III Using Prefix Sums](tree/05_tree_paths/path_sum_iii/README.md) · P1
+- [ ] [Maximum Path Sum](tree/05_tree_paths/maximum_path_sum/README.md) · P1
+
+### Tree Relationships
+
+- [ ] [Lowest Common Ancestor in a Binary Tree](tree/06_tree_relationships/lca_binary_tree/README.md) · P1
+- [ ] [Lowest Common Ancestor in a BST](tree/06_tree_relationships/lca_bst/README.md) · P1
+- [ ] [Distance Between Two Nodes](tree/06_tree_relationships/distance_between_nodes/README.md) · P1
+- [ ] [Kth Ancestor of a Node](tree/06_tree_relationships/kth_ancestor/README.md) · P1
+- [ ] [Nodes at Distance K](tree/06_tree_relationships/nodes_at_distance_k/README.md) · P1
+- [ ] [Ancestor and Descendant Queries](tree/06_tree_relationships/ancestor_queries/README.md) · P1
+
+### Tree Construction
+
+- [ ] [Construct from Inorder and Preorder](tree/07_tree_construction/from_inorder_preorder/README.md) · P1
+- [ ] [Construct from Inorder and Postorder](tree/07_tree_construction/from_inorder_postorder/README.md) · P1
+- [ ] [Construct a Full Binary Tree from Preorder and Postorder](tree/07_tree_construction/full_from_preorder_postorder/README.md) · P2
+- [ ] [Construct a BST from Preorder](tree/07_tree_construction/bst_from_preorder/README.md) · P1
+- [ ] [Convert Sorted Array to Balanced BST](tree/07_tree_construction/sorted_array_to_bst/README.md) · P1
+
+### Tree Transformation
+
+- [ ] [Invert Binary Tree](tree/08_tree_transformation/invert_tree/README.md) · P1
+- [ ] [Mirror Binary Tree](tree/08_tree_transformation/mirror_tree/README.md) · P1
+- [ ] [Flatten Binary Tree into a Linked List](tree/08_tree_transformation/flatten_preorder/README.md) · P1
+- [ ] [Convert Binary Tree to Doubly Linked List](tree/08_tree_transformation/tree_to_doubly_linked_list/README.md) · P1
+
+### Serialization
+
+- [ ] [Serialization and Deserialization Using BFS](tree/09_serialization/serialize_bfs/README.md) · P1
+- [ ] [Serialization and Deserialization Using DFS](tree/09_serialization/serialize_dfs/README.md) · P1
+
 ## Interview preparation checklist
 
 - [ ] Choose an adjacency list, adjacency matrix, or edge list for a given workload.
