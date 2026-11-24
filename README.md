@@ -51,6 +51,34 @@ uv run pytest graph/02_traversal/bfs
 - [ ] [Grid DFS](graph/02_traversal/grid_dfs/README.md) · P1
 - [ ] [Number of Islands](graph/02_traversal/number_of_islands/README.md) · P1
 
+### Connectivity
+
+- [ ] [Connected Components Using BFS](graph/03_connectivity/components_bfs/README.md) · P1
+- [ ] [Connected Components Using DFS](graph/03_connectivity/components_dfs/README.md) · P1
+- [ ] [Connected Components Using DSU](graph/03_connectivity/components_dsu/README.md) · P1
+
+### Cycle Detection
+
+- [ ] [Undirected Cycle Detection Using BFS](graph/04_cycle_detection/undirected_cycle_bfs/README.md) · P1
+- [ ] [Undirected Cycle Detection Using DFS](graph/04_cycle_detection/undirected_cycle_dfs/README.md) · P1
+- [ ] [Undirected Cycle Detection Using DSU](graph/04_cycle_detection/undirected_cycle_dsu/README.md) · P1
+- [ ] [Directed Cycle Detection Using DFS](graph/04_cycle_detection/directed_cycle_dfs/README.md) · P1
+- [ ] [Directed Cycle Detection Using Kahn’s Algorithm](graph/04_cycle_detection/directed_cycle_kahn/README.md) · P1
+- [ ] [Eventual Safe Nodes](graph/04_cycle_detection/eventual_safe_nodes/README.md) · P1
+
+### Graph Coloring
+
+- [ ] [Bipartite Check Using BFS](graph/05_graph_coloring/bipartite_bfs/README.md) · P1
+- [ ] [Bipartite Check Using DFS](graph/05_graph_coloring/bipartite_dfs/README.md) · P1
+- [ ] [M-Coloring Using Backtracking](graph/05_graph_coloring/m_coloring/README.md) · P1
+
+### Topological Sorting
+
+- [ ] [Topological Sort Using DFS](graph/06_topological_sort/topological_sort_dfs/README.md) · P1
+- [ ] [Kahn’s Algorithm](graph/06_topological_sort/kahn/README.md) · P1
+- [ ] [Dependency Resolution](graph/06_topological_sort/dependency_resolution/README.md) · P1
+- [ ] [DAG Task Scheduling](graph/06_topological_sort/dag_task_scheduling/README.md) · P1
+
 ## Interview preparation checklist
 
 - [ ] Choose an adjacency list, adjacency matrix, or edge list for a given workload.
