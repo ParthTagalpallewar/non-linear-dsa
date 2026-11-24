@@ -111,6 +111,46 @@ uv run pytest graph/02_traversal/bfs
 - [ ] [Borůvka’s Algorithm](graph/09_minimum_spanning_tree/boruvka/README.md) · P3
 - [ ] [Minimum Spanning Forest](graph/09_minimum_spanning_tree/minimum_spanning_forest/README.md) · P2
 
+### Strongly Connected Components
+
+- [ ] [Kosaraju’s Algorithm](graph/10_strongly_connected_components/kosaraju/README.md) · P2
+- [ ] [Tarjan’s SCC Algorithm](graph/10_strongly_connected_components/tarjan_scc/README.md) · P2
+
+### Bridges and Articulation Points
+
+- [ ] [Tarjan’s Bridge Algorithm](graph/11_bridges_and_articulation_points/tarjan_bridges/README.md) · P2
+- [ ] [Articulation Point Algorithm](graph/11_bridges_and_articulation_points/articulation_points/README.md) · P2
+
+### Special Graph Paths
+
+- [ ] [Eulerian Path](graph/12_special_paths/eulerian_path/README.md) · P2
+- [ ] [Eulerian Circuit](graph/12_special_paths/eulerian_circuit/README.md) · P2
+- [ ] [Hierholzer’s Algorithm](graph/12_special_paths/hierholzer/README.md) · P2
+- [ ] [Fleury’s Algorithm](graph/12_special_paths/fleury/README.md) · P3
+- [ ] [Hamiltonian Path Using Backtracking](graph/12_special_paths/hamiltonian_path/README.md) · P3
+- [ ] [Hamiltonian Cycle Using Backtracking](graph/12_special_paths/hamiltonian_cycle/README.md) · P3
+
+### Graph Dynamic Programming
+
+- [ ] [Dynamic Programming on DAGs](graph/13_graph_dp/dag_dp/README.md) · P2
+- [ ] [Longest Path in a DAG](graph/13_graph_dp/longest_path_dag/README.md) · P2
+- [ ] [Counting Paths in a DAG](graph/13_graph_dp/count_paths_dag/README.md) · P2
+- [ ] [Dependency-Based Dynamic Programming](graph/13_graph_dp/dependency_dp/README.md) · P2
+
+### Network Flow
+
+- [ ] [Ford–Fulkerson](graph/14_network_flow/ford_fulkerson/README.md) · P2
+- [ ] [Edmonds–Karp](graph/14_network_flow/edmonds_karp/README.md) · P2
+- [ ] [Maximum Flow](graph/14_network_flow/maximum_flow/README.md) · P2
+- [ ] [Dinic’s Algorithm](graph/14_network_flow/dinic/README.md) · P3
+- [ ] [Minimum Source–Sink Cut](graph/14_network_flow/minimum_cut/README.md) · P2
+
+### Graph Matching
+
+- [ ] [Bipartite Matching Using Augmenting Paths](graph/15_graph_matching/bipartite_matching/README.md) · P2
+- [ ] [Hopcroft–Karp Algorithm](graph/15_graph_matching/hopcroft_karp/README.md) · P3
+- [ ] [Hungarian Assignment Algorithm](graph/15_graph_matching/hungarian/README.md) · P3
+
 ## Interview preparation checklist
 
 - [ ] Choose an adjacency list, adjacency matrix, or edge list for a given workload.
