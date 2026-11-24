@@ -42,6 +42,8 @@ The tree with root 1, children 2 and 3, and left grandchild 4 emits [4, 2, 3, 1]
 
 Start with `postorder_iterative` in [implementation.py](implementation.py). Emit each node at its designated last point.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For N nodes and height H, time is O(N), auxiliary space O(H + 1), and output space O(N).

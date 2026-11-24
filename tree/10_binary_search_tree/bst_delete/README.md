@@ -42,6 +42,8 @@ Deleting 4 replaces its key with successor 6. The old node 6 gives way to its ch
 
 Start with `bst_delete` in [implementation.py](implementation.py). Return the selected value or updated result.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For height H, time and recursive auxiliary space are O(H + 1).

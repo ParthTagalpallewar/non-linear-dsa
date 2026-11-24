@@ -39,3 +39,7 @@ def dinic(size: int, edges: list[CapacityEdge], source: int, sink: int) -> int:
 
         while sent := send(source, bound):
             total += sent
+
+
+if __name__ == "__main__":
+    print(dinic(3, [(0, 1, 4), (1, 2, 3)], 0, 2))

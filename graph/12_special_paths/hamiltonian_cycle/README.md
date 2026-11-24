@@ -39,6 +39,8 @@ Trying 0→1 first gets stuck before reaching 2. Undo that choice and try 0→2�
 
 Start with `hamiltonian_cycle` in [implementation.py](implementation.py). After all vertices are included, verify the closing edge.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For V vertices and maximum adjacency length D, exploring vertex permutations on a simple graph takes O(V! × (D + 1)) worst-case time and O(V) auxiliary space. Repeated adjacency entries can repeat branches.

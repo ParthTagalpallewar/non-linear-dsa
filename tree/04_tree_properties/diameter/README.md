@@ -42,6 +42,10 @@ Node 2 combines a one-edge arm to 4 and no right arm. Node 1 combines two edges 
 
 Start with `diameter` in [implementation.py](implementation.py). Return the finalized measurement or predicate.
 
+Run the example from the repository root with `uv run python -m tree.04_tree_properties.diameter.implementation`.
+
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For N nodes and tree height H, time is O(N) and stack space O(H + 1).

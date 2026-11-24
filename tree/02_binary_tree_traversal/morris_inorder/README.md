@@ -42,6 +42,8 @@ Create the thread 2→1, then 4→2. After visiting 4, follow its thread to 2 an
 
 Start with `morris_inorder` in [implementation.py](implementation.py). Emit after completing the left subtree.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For N nodes, time is O(N), with O(1) auxiliary space besides O(N) output. Each traversed edge is examined a constant number of times.
@@ -67,6 +69,8 @@ Compare node identities and restore each thread before advancing to the right.
 Recursive or stack-based traversal leaves the tree unchanged throughout.
 
 ## 15. Practice problems
+
+- LeetCode #94, Easy. Inorder traversal via temporary threads. [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
 
 **Original exercise · P2.** Modify the worked example by adding a leaf and predict what changes.
 

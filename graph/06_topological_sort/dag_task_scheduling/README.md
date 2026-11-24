@@ -40,6 +40,8 @@ With 0 and 1 taking 3 and 7 days, 2 starts at day 7. Its 2-day duration gives a 
 
 Start with `dag_task_scheduling` in [implementation.py](implementation.py). Use the final state to produce the result.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For V vertices and E edges, time is O(V + E) and auxiliary space is O(V). Each vertex is scheduled once and its adjacency is scanned once.

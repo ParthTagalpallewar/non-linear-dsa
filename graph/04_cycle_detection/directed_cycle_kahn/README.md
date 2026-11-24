@@ -38,6 +38,8 @@ In 0→1⇄2, only 0 enters the queue. The other two retain incoming edges.
 
 Start with `directed_cycle_kahn` in [implementation.py](implementation.py). Use the final state to produce the result.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For V vertices and E edges, time is O(V + E) and auxiliary space is O(V). Each vertex is scheduled once and its adjacency is scanned once.

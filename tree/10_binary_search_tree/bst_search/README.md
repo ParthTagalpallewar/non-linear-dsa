@@ -42,6 +42,8 @@ Searching for 3 compares against 4, then 2, then 3.
 
 Start with `bst_search` in [implementation.py](implementation.py). Return the selected value or updated result.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For height H, time is O(H + 1) and auxiliary space O(1). Balance gives H=O(log N) for N nodes, while a chain has H=N−1.

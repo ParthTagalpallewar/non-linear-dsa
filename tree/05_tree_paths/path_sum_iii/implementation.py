@@ -22,3 +22,7 @@ def path_sum_iii(root: BinaryNode | None, target: int) -> int:
         return total
 
     return visit(root, 0)
+
+
+if __name__ == "__main__":
+    print(path_sum_iii(BinaryNode(1, BinaryNode(2)), 3))

@@ -22,3 +22,7 @@ def components_bfs(graph: list[list[int]]) -> list[list[int]]:
                     pending.append(neighbor)
         groups.append(group)
     return groups
+
+
+if __name__ == "__main__":
+    print(components_bfs([[1], [0], []]))

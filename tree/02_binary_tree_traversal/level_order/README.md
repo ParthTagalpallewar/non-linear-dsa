@@ -42,6 +42,10 @@ Queue snapshots at the start of each layer are [1], [2, 3], and [4]. The emitted
 
 Start with `level_order` in [implementation.py](implementation.py). Emit levels in the requested order.
 
+Run the example from the repository root with `uv run python -m tree.02_binary_tree_traversal.level_order.implementation`.
+
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For N nodes and maximum level size W, time is O(N), queue space O(W), and output space O(N).
@@ -67,6 +71,8 @@ Freeze the layer size before appending children. Keep child enqueue order consis
 A depth-indexed DFS can gather the same layers using O(H) call-stack space for tree height H.
 
 ## 15. Practice problems
+
+- LeetCode #102, Medium. BFS layer boundaries. [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
 
 **Original exercise · P1.** Modify the worked example by adding a leaf and predict what changes.
 

@@ -42,6 +42,8 @@ If both outer grandchildren exist, their relative positions are 0 and 3. The dep
 
 Start with `maximum_width` in [implementation.py](implementation.py). Return the finalized measurement or predicate.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For N nodes and maximum number of nodes at a level W, worst-case time is O(N) and queue space O(W). The operation count treats integer index arithmetic as constant time.

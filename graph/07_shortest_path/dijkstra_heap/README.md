@@ -39,6 +39,10 @@ From 0 we discover 1 at cost 8 and 2 at cost 1. Selecting 2 first improves 1 to 
 
 Start with `dijkstra_heap` in [implementation.py](implementation.py). Relax each outgoing edge of the minimum-distance vertex.
 
+Run the example from the repository root with `uv run python -m graph.07_shortest_path.dijkstra_heap.implementation`.
+
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For V vertices and E directed edges, time is O(V + E log(E + 1)) and auxiliary space O(V + E) for the lazy heap.
@@ -64,6 +68,8 @@ Reject negative weights and use strict improvements so zero-weight cycles do not
 Use the array scan for dense graphs where heap operations can dominate.
 
 ## 15. Practice problems
+
+- LeetCode #743, Medium. Single-source nonnegative shortest paths. [Network Delay Time](https://leetcode.com/problems/network-delay-time/)
 
 **Original exercise · P1.** Trace the algorithm with a disconnected fourth vertex and explain its final distance.
 

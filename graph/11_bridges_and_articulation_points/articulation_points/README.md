@@ -38,6 +38,8 @@ With discovery order 0, 1, 2, 3, the second edge between 0 and 1 lowers low[1] t
 
 Start with `articulation_points` in [implementation.py](implementation.py). Apply the child cutoff to nonroots and count DFS children for roots.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For V vertices and E edges, DFS takes O(V + E) time and auxiliary space. Sorting K returned IDs adds O(K log(K + 1)) time.

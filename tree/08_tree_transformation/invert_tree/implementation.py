@@ -16,3 +16,7 @@ def invert_tree(root: BinaryNode | None) -> BinaryNode | None:
         if node.right is not None:
             stack.append(node.right)
     return root
+
+
+if __name__ == "__main__":
+    print(invert_tree(BinaryNode(1, BinaryNode(2))))

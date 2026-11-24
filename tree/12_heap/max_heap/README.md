@@ -40,6 +40,8 @@ For keys [4, 1, 3], the largest key reaches the root. Removing it leaves a heap 
 
 Start with `max_heap` in [implementation.py](implementation.py). Return the heap or selected item.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 Build N keys in O(N) time and storage. Peek is O(1), push/pop take O(log(N + 1)) worst-case time and O(1) working space.

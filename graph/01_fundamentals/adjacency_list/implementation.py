@@ -17,3 +17,7 @@ def adjacency_list(
         if not directed:
             neighbors[target].append(source)
     return neighbors
+
+
+if __name__ == "__main__":
+    print(adjacency_list(3, [(0, 1)]))

@@ -42,6 +42,8 @@ The leaf routes are [1, 2, 4] and [1, 3]. The result is [1, 2, 4].
 
 Start with `longest_root_to_leaf_path` in [implementation.py](implementation.py). Produce the result from the completed traversal.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For N nodes, time and auxiliary space are O(N) including the parent map.

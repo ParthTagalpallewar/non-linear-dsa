@@ -38,6 +38,10 @@ With discovery order 0, 1, 2, 3, the second edge between 0 and 1 lowers low[1] t
 
 Start with `tarjan_bridges` in [implementation.py](implementation.py). A tree edge is a bridge if the child cannot reach even the parent's discovery time.
 
+Run the example from the repository root with `uv run python -m graph.11_bridges_and_articulation_points.tarjan_bridges.implementation`.
+
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For V vertices and E edges, DFS takes O(V + E) time and auxiliary space. Sorting K returned IDs adds O(K log(K + 1)) time.
@@ -63,6 +67,8 @@ Skip only the incoming physical edge. A parallel edge back to the parent must st
 Removing each candidate and checking connectivity provides a simple brute-force oracle but repeats the traversal.
 
 ## 15. Practice problems
+
+- LeetCode #1192, Hard. DFS low links and bridge edges. [Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/)
 
 **Original exercise · P2.** Modify the worked example to introduce an isolated vertex, and predict the result before running the code.
 

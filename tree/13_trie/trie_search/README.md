@@ -41,6 +41,8 @@ Searching ca reaches an internal node but fails unless ca is individually stored
 
 Start with `trie_search` in [implementation.py](implementation.py). Return the result for the completed prefix or key.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For L characters, O(L + 1) expected time and O(1) auxiliary space.
@@ -66,6 +68,8 @@ A word can terminate at an internal node or the root.
 A hash set is simpler when only exact membership queries matter.
 
 ## 15. Practice problems
+
+- LeetCode #208, Medium. Exact lookup using a terminal marker. [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)
 
 **Original exercise · P1.** Modify the worked example by adding a leaf and predict what changes.
 

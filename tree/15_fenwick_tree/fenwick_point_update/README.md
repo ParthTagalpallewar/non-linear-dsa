@@ -40,6 +40,8 @@ Updating index 2 starts at internal index 3 and next visits index 4.
 
 Start with `fenwick_point_update` in [implementation.py](implementation.py). Return the aggregate or keep the updated state for later queries.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For N values, query and update time is O(log(N + 1)). The tree stores O(N) values. The index walk uses O(1) auxiliary space.

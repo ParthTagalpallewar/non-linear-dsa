@@ -42,6 +42,8 @@ In walk [0, 1, 3, 1, 4, 1, 0, 2, 0], first positions 2 and 4 span [3, 1, 4]. Min
 
 Start with `lca_euler_sparse_table` in [implementation.py](implementation.py). Return the result for each requested vertex or pair.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For N nodes, build time and storage O(N log(N + 1)), with O(1) time and space per query.

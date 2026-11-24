@@ -39,6 +39,8 @@ The active iterators belong to vertices [0], [0, 1], then [0, 1, 3]. After unwin
 
 Start with `dfs_iterative` in [implementation.py](implementation.py). Pop exhausted iterators and push new iterators for unseen neighbors.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For V reachable vertices and E outgoing edges inspected, time is O(V + E) and auxiliary space is O(V).

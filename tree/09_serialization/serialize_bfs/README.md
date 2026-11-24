@@ -42,6 +42,10 @@ For the pictured tree the serialized sequence is "1,2,3,4,#,#,#,#,#". Each # occ
 
 Start with `serialize_bfs` in [implementation.py](implementation.py). Produce the result from the completed traversal.
 
+Run the example from the repository root with `uv run python -m tree.09_serialization.serialize_bfs.implementation`.
+
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For N nodes and L encoded characters, run time is O(N + L) ignoring integer conversion costs for unusually large integers. Auxiliary space is O(N + L) for token storage and traversal state.

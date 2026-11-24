@@ -40,6 +40,8 @@ Push (1, 0, first) and (1, 1, second). The index places first ahead of second.
 
 Start with `heapq_priority_queue` in [implementation.py](implementation.py). Return the heap or selected item.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For N tasks, heap build is O(N), each pop is O(log(N + 1)), total O(N log(N + 1)) time and O(N) auxiliary space.

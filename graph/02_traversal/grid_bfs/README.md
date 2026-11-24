@@ -39,6 +39,8 @@ After popping S, pending contains [(1, 0), (0, 1)]. The queue next pops (1, 0).
 
 Start with `grid_bfs` in [implementation.py](implementation.py). Visit each pending cell and add unseen passable neighbors.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For R rows and C columns, the worst case is O(RC) time and O(RC) auxiliary space. Each reached cell has at most four neighbors.

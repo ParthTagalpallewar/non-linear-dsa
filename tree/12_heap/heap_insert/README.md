@@ -40,6 +40,8 @@ Appending 0 to [1, 4, 3] swaps it upward past 4 and then past 1.
 
 Start with `heap_insert` in [implementation.py](implementation.py). Return the heap or selected item.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For N keys, worst-case time O(log(N + 1)), best-case O(1), and O(1) auxiliary space.

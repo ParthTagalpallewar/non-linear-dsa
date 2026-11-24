@@ -42,6 +42,8 @@ Pair the first corresponding nodes. If both contain 2, continue to their childre
 
 Start with `are_identical` in [implementation.py](implementation.py). Return the finalized measurement or predicate.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For N inspected node pairs and maximum compared height H, time is O(N + 1) and stack space O(H + 1). A root mismatch stops in O(1).

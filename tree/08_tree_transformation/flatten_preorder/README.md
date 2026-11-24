@@ -42,6 +42,8 @@ Preorder emits 1→2→4→3. Each emitted node loses its left pointer and links
 
 Start with `flatten_preorder` in [implementation.py](implementation.py). Produce the result from the completed traversal.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For N nodes and height H, worst-case time is O(N) and auxiliary space O(H + 1), excluding output.

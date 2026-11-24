@@ -42,6 +42,8 @@ Leaves start [2, 3, 4]. Remove 2 and write 0. Now remove 0 and write 1. Remove 3
 
 Start with `prufer_encode` in [implementation.py](implementation.py). Stop when two vertices remain.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For N vertices, time O(N log N) and auxiliary space O(N). Across all removals, scanning the original adjacency rows touches O(N) entries.

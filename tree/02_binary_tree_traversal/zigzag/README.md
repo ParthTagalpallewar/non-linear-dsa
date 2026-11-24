@@ -42,6 +42,8 @@ Queue snapshots at the start of each layer are [1], [2, 3], and [4]. The emitted
 
 Start with `zigzag` in [implementation.py](implementation.py). Emit levels in the requested order.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For N nodes and maximum level size W, time is O(N), queue space O(W), and output space O(N).

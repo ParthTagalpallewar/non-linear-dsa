@@ -38,6 +38,8 @@ After 0 discovers 1, 1 skips its edge back to 0. A second such edge closes a two
 
 Start with `undirected_cycle_dfs` in [implementation.py](implementation.py). Use the final state to produce the result.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For V vertices and E edges, time is O(V + E) and auxiliary space is O(V). Each vertex is scheduled once and its adjacency is scanned once.

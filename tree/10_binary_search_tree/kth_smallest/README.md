@@ -42,6 +42,8 @@ The sequence starts 1, 2, 3, so rank two gives 2.
 
 Start with `kth_smallest` in [implementation.py](implementation.py). Return the selected value or updated result.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For tree height H and valid rank K, time O(H + K), auxiliary space O(H + 1). An invalid oversized rank scans all N nodes.
@@ -67,6 +69,8 @@ Treat k as one-indexed and check exhaustion.
 Subtree sizes support O(H + 1) rank selection per query.
 
 ## 15. Practice problems
+
+- LeetCode #230, Medium. Early stop in inorder traversal. [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
 
 **Original exercise · P1.** Modify the worked example by adding a leaf and predict what changes.
 

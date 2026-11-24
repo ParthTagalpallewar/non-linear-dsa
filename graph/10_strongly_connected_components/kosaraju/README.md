@@ -38,6 +38,8 @@ A search from 0 finishes [3, 2, 1, 0]. In the transpose a traversal from 0 reach
 
 Start with `kosaraju` in [implementation.py](implementation.py). In reverse exit order, traverse unseen vertices in the transpose to extract components.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For V vertices and E edges, time and auxiliary space are O(V + E), including the transpose.

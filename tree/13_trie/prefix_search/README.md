@@ -41,6 +41,8 @@ Searching ca succeeds because both cat and car follow that path.
 
 Start with `prefix_search` in [implementation.py](implementation.py). Return the result for the completed prefix or key.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For L characters, expected time O(L + 1) and O(1) auxiliary space.
@@ -66,6 +68,8 @@ Distinguish searching a prefix from searching a complete word.
 A hash set is simpler when only exact membership queries matter.
 
 ## 15. Practice problems
+
+- LeetCode #208, Medium. Prefix lookup with optional terminal marker. [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)
 
 **Original exercise · P1.** Modify the worked example by adding a leaf and predict what changes.
 

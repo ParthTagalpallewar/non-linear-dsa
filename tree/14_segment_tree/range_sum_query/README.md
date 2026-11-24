@@ -40,6 +40,8 @@ The range [1, 3) uses the two singleton values −2 and 7, giving 5.
 
 Start with `range_sum_query` in [implementation.py](implementation.py). Return the aggregate or keep the updated state for later queries.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For N values, query and update time is O(log(N + 1)). The tree stores O(N) values. Segment-tree recursion adds O(log(N + 1)) auxiliary stack space.

@@ -40,6 +40,8 @@ The first DFS marks (0, 0) and (0, 1). The second marks (1, 2) and (2, 2). The l
 
 Start with `number_of_islands` in [implementation.py](implementation.py). Mark every land cell reachable from the seed.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For R rows and C columns, the worst case is O(RC) time and O(RC) auxiliary space. Each reached cell has at most four neighbors.
@@ -65,6 +67,8 @@ Mark a cell when adding it to the stack. Touching at a corner does not connect f
 Use a queue for equivalent BFS or disjoint sets for incremental land additions.
 
 ## 15. Practice problems
+
+- LeetCode #200, Medium. Four-connected component counting. [Number of Islands](https://leetcode.com/problems/number-of-islands/)
 
 **Original exercise · P1.** Return the size of the largest island as part of the same scan.
 

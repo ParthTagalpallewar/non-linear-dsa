@@ -38,6 +38,8 @@ From 0, the direct route to 2 scores −5. Processing 1 improves 2 to −2 + 1 =
 
 Start with `longest_path_dag` in [implementation.py](implementation.py). Maximize the current score at the destination of every edge.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For V vertices and E edges, time and auxiliary space are O(V + E), including the unweighted projection.

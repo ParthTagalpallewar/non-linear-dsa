@@ -38,6 +38,8 @@ After joining 1 and 2, their group has size two. Joining 0 to 2 attaches the sin
 
 Start with `union_by_size` in [implementation.py](implementation.py). Add the losing group's size to the surviving root.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For V elements, storage and setup are O(V). With path halving, the amortized operation cost is O(α(V)).

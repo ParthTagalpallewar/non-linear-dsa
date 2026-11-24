@@ -42,6 +42,8 @@ If inorder becomes [1, 6, 3, 4, 2, 8], descents 6>3 and 4>2 identify keys 6 and 
 
 Start with `recover_bst` in [implementation.py](implementation.py). Return the selected value or updated result.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For N nodes and height H, time is O(N) and auxiliary space O(H + 1).

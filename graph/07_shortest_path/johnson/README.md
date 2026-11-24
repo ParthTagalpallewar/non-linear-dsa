@@ -39,6 +39,8 @@ The super-source gives h=[0, 0, −5] for the example. The edge 1→2 goes from 
 
 Start with `johnson` in [implementation.py](implementation.py). Run Dijkstra from every original vertex and reverse the potential shift.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For V vertices and E edges, time is O(V² + VE log(E + 1)) with lazy heaps. The result stores O(V²) distances and working space is O(V + E).

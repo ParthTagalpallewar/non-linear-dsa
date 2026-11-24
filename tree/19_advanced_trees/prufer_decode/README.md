@@ -42,6 +42,10 @@ For [0, 1, 1], degrees are [2, 3, 1, 1, 1]. Connect 2—0, then 0—1, then 3—
 
 Start with `prufer_decode` in [implementation.py](implementation.py). Join the two remaining leaves.
 
+Run the example from the repository root with `uv run python -m tree.19_advanced_trees.prufer_decode.implementation`.
+
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For N decoded vertices, time O(N log N), with O(N) auxiliary and output storage.

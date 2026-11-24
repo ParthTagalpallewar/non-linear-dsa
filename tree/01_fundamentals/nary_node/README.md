@@ -42,6 +42,8 @@ Create leaf 4, then node 2 with 4 as its child. Supply 2 and 3 to the root const
 
 Start with `nary_node` in [implementation.py](implementation.py). Leave children absent for a leaf.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For K children, time and space are O(K) to materialize the child list.

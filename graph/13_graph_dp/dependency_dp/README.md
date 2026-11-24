@@ -39,6 +39,8 @@ Base costs 2, left 3, right 4, final 1 produce totals 2, 5, 6, and 12, counting 
 
 Start with `dependency_dp` in [implementation.py](implementation.py). Add every finalized total to each dependent once per requirement.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For V tasks and E requirements, there are O(V + E) arithmetic and graph operations and O(V + E) auxiliary space.

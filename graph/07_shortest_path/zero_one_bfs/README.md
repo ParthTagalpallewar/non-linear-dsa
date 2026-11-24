@@ -39,6 +39,8 @@ After 0, the deque contains (0, 2) then (1, 1). Expanding 2 inserts (0, 1) at th
 
 Start with `zero_one_bfs` in [implementation.py](implementation.py). Push zero-cost improvements to the front and unit-cost improvements to the back.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For V vertices and E edges, time is O(V + E) and auxiliary space is O(V + E), including stale deque entries.

@@ -42,6 +42,8 @@ For the example, the list is 4 ⇄ 2 ⇄ 1 ⇄ 3. The head is node 4 and the tai
 
 Start with `tree_to_doubly_linked_list` in [implementation.py](implementation.py). Produce the result from the completed traversal.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For N nodes and height H, worst-case time is O(N) and auxiliary space O(H + 1), excluding output.

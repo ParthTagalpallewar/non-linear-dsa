@@ -17,3 +17,7 @@ def diameter(root: BinaryNode | None) -> int:
 
     height(root)
     return best
+
+
+if __name__ == "__main__":
+    print(diameter(BinaryNode(1, BinaryNode(2), BinaryNode(3))))

@@ -39,6 +39,8 @@ From (0, 0), the stack receives (1, 0) and (0, 1). The lower-right 1 has no conn
 
 Start with `flood_fill` in [implementation.py](implementation.py). Recolor and push each matching neighbor before continuing.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For R rows and C columns, the worst case is O(RC) time and O(RC) auxiliary space. Each reached cell has at most four neighbors. If the color stays the same, the function returns in O(1).
@@ -64,6 +66,8 @@ Return immediately when the replacement is equal to the original color.
 BFS with a queue fills the same region. An explicit visited set allows traversal without recoloring during discovery.
 
 ## 15. Practice problems
+
+- LeetCode #733, Easy. Traversal of one equal-color region. [Flood Fill](https://leetcode.com/problems/flood-fill/)
 
 **Original exercise · P1.** Add an option for diagonal connectivity and compare results on a checkerboard.
 

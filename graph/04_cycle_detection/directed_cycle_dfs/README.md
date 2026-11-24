@@ -38,6 +38,10 @@ In 0→1→2→1, visiting 2 finds state 1 at vertex 1, which is still active.
 
 Start with `directed_cycle_dfs` in [implementation.py](implementation.py). Use the final state to produce the result.
 
+Run the example from the repository root with `uv run python -m graph.04_cycle_detection.directed_cycle_dfs.implementation`.
+
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For V vertices and E edges, time is O(V + E) and auxiliary space is O(V). Each vertex is scheduled once and its adjacency is scanned once.

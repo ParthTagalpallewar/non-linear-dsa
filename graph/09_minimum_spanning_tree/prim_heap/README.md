@@ -41,6 +41,8 @@ Starting from 0, choose 0â€”1 at weight 4. The cheapest crossing edge is now 1â€
 
 Start with `prim_heap` in [implementation.py](implementation.py). Include the chosen edge and record candidates from the new vertex.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For V vertices and E edges, time is O(V + E log(E + 1)) and space O(V + E), including adjacency and heap.

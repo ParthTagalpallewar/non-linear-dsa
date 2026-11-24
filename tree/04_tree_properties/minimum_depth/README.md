@@ -42,6 +42,8 @@ The reported depths of nodes 1, 2, 3, 4 are 1, 2, 2, 3. The first leaf is 3, so 
 
 Start with `minimum_depth` in [implementation.py](implementation.py). Return the finalized measurement or predicate.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For N nodes and maximum number of nodes at a level W, worst-case time is O(N) and queue space O(W). A singleton ends in O(1).

@@ -19,3 +19,11 @@
 - [ ] [Tree Queries](17_tree_queries/README.md)
 - [ ] [Multiway Trees](18_multiway_trees/README.md)
 - [ ] [Advanced Trees](19_advanced_trees/README.md)
+
+## Reference guides
+
+- [Algorithm selection](algorithm-selection.md)
+- [Complexity cheat sheet](complexity.md)
+- [Traversal cheat sheet](traversal-cheat-sheet.md)
+- [BST vs AVL vs red-black](bst-vs-avl-vs-red-black.md)
+- [Segment tree vs Fenwick tree](segment-vs-fenwick.md)

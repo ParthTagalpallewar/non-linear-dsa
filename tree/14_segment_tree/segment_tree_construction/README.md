@@ -40,6 +40,8 @@ For [4, −2, 7, 3], the two child sums are 2 and 10, and the root stores 12.
 
 Start with `segment_tree_construction` in [implementation.py](implementation.py). Return the aggregate or keep the updated state for later queries.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For N items, O(N) build time and storage, with O(log(N + 1)) stack space.

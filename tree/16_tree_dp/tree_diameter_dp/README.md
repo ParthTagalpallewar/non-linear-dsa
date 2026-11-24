@@ -40,6 +40,8 @@ At node 1, the arms to 2 and 3 have length one, giving a two-edge route between 
 
 Start with `tree_diameter_dp` in [implementation.py](implementation.py). Read the complete result from the computed states.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For N nodes, O(N) time and O(N) auxiliary space. The rooted tree has N−1 undirected edges.

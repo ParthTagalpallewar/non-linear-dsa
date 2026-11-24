@@ -38,6 +38,10 @@ Edge 3→2 lowers low[3] to entry[2], so returning from 2 pops 3 and 2. Returnin
 
 Start with `tarjan_scc` in [implementation.py](implementation.py). When low equals discovery time, pop through that component root.
 
+Run the example from the repository root with `uv run python -m graph.10_strongly_connected_components.tarjan_scc.implementation`.
+
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For V vertices and E edges, time is O(V + E) and auxiliary space is O(V). Each vertex enters and leaves the stack once.

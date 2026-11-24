@@ -40,6 +40,8 @@ The first phase may assign L0 to R0. The next layer search from L1 goes through 
 
 Start with `hopcroft_karp` in [implementation.py](implementation.py). Flip a maximal family of shortest paths and repeat.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For V total vertices and E edges, the standard bound is O(E√V) after isolating zero-degree vertices. This version scans all left vertices each phase, so its bound is O(V + (V + E)√V). Space is O(V).

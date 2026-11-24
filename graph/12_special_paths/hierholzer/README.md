@@ -38,6 +38,10 @@ The two edges between 0 and 1 and the loop at 1 produce [0, 1, 1, 0]. The isolat
 
 Start with `hierholzer` in [implementation.py](implementation.py). Reverse the output and confirm that every input edge was used.
 
+Run the example from the repository root with `uv run python -m graph.12_special_paths.hierholzer.implementation`.
+
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For V vertices and E edges, time and auxiliary space are O(V + E). Each physical edge produces two adjacency entries and one stack push.

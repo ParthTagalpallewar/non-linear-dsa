@@ -40,6 +40,10 @@ Index 1 contributes 3 to index 2. Index 2 now stores 4 and contributes it to ind
 
 Start with `fenwick_construction` in [implementation.py](implementation.py). Return the aggregate or keep the updated state for later queries.
 
+Run the example from the repository root with `uv run python -m tree.15_fenwick_tree.fenwick_construction.implementation`.
+
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For N values, time and storage are O(N), with O(1) working space beyond the index.

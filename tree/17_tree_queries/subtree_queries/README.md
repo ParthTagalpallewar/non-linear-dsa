@@ -42,6 +42,8 @@ Preorder [0, 1, 3, 4, 2] gives subtree 1 interval [1, 4), which maps to values 2
 
 Start with `subtree_queries` in [implementation.py](implementation.py). Return the result for each requested vertex or pair.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For N nodes and Q queries, total time O(N + Q), preprocessing space O(N), and result space O(Q).

@@ -41,6 +41,8 @@ Deleting cat removes t but keeps c→a because car still uses it.
 
 Start with `trie_delete` in [implementation.py](implementation.py). Return the result for the completed prefix or key.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For L characters, O(L + 1) expected time and O(L) auxiliary space for the backward path.

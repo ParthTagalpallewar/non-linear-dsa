@@ -42,6 +42,8 @@ For [1, 2, 3, 4, 5], split at key 3. The left interval produces 2 with child 1, 
 
 Start with `sorted_array_to_bst` in [implementation.py](implementation.py). Produce the result from the completed traversal.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For N keys, O(N) construction and validation time, O(log(N + 1)) auxiliary stack space, and O(N) output space.

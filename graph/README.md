@@ -15,3 +15,11 @@
 - [ ] [Graph Dp](13_graph_dp/README.md)
 - [ ] [Network Flow](14_network_flow/README.md)
 - [ ] [Graph Matching](15_graph_matching/README.md)
+
+## Reference guides
+
+- [Algorithm selection](algorithm-selection.md)
+- [Complexity cheat sheet](complexity.md)
+- [Shortest-path comparison](shortest-path-comparison.md)
+- [Prim vs Kruskal](prim-vs-kruskal.md)
+- [BFS vs DFS](bfs-vs-dfs.md)

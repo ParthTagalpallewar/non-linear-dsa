@@ -42,6 +42,8 @@ The map from 4 is {4:0, 2:1, 1:2}. Node 3 takes one step to 1, so the distance i
 
 Start with `distance_between_nodes` in [implementation.py](implementation.py). Produce the result from the completed traversal.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For N nodes, worst-case time and auxiliary space are O(N) due to parent indexing.

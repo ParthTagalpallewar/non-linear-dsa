@@ -38,6 +38,10 @@ Starting with [[], [], []], edge (0, 1) gives [[1], [0], []].
 
 Start with `adjacency_list` in [implementation.py](implementation.py). Insert a reverse entry for each undirected edge.
 
+Run the example from the repository root with `uv run python -m graph.01_fundamentals.adjacency_list.implementation`.
+
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 V vertices and E input edges take O(V + E) build time and result space, with O(1) auxiliary space. Reading all neighbors of u costs O(degree(u)).

@@ -39,6 +39,8 @@ After popping S, pending contains [(1, 0), (0, 1)]. The stack next pops (0, 1).
 
 Start with `grid_dfs` in [implementation.py](implementation.py). Visit each pending cell and add unseen passable neighbors.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For R rows and C columns, the worst case is O(RC) time and O(RC) auxiliary space. Each reached cell has at most four neighbors.

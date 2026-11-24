@@ -42,6 +42,8 @@ The tree with root 1, children 2 and 3, and left grandchild 4 emits [4, 2, 1, 3]
 
 Start with `inorder_recursive` in [implementation.py](implementation.py). Emit each node at its designated middle point.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For N nodes and height H, time is O(N), auxiliary space O(H + 1), and output space O(N).
@@ -67,6 +69,8 @@ Keep emission separate from exploration, and include duplicate values as separat
 For inorder or preorder, Morris traversal can avoid the stack by temporarily changing pointers.
 
 ## 15. Practice problems
+
+- LeetCode #94, Easy. Left subtree, root, right subtree. [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
 
 **Original exercise · P1.** Modify the worked example by adding a leaf and predict what changes.
 

@@ -40,6 +40,10 @@ Heap [4, 1, 3] trades 4 with index 2, freezes that position, and repairs the len
 
 Start with `heap_sort` in [implementation.py](implementation.py). Return the heap or selected item.
 
+Run the example from the repository root with `uv run python -m tree.12_heap.heap_sort.implementation`.
+
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For N items, worst-case O(N log(N + 1)) time and O(1) auxiliary space. Building the first heap is O(N).

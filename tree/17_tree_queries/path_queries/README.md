@@ -42,6 +42,8 @@ For values [8, 2, −5, 4, 1], the path 3→1→0→2 sums to 4 + 2 + 8 − 5 = 
 
 Start with `path_queries` in [implementation.py](implementation.py). Return the result for each requested vertex or pair.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For N nodes and Q queries, total time O((N + Q) log(N + 1)), index storage O(N log(N + 1)), and output O(Q).

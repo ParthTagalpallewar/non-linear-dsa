@@ -42,6 +42,10 @@ Root 1 still has value 1. Child 2 moves right, child 3 moves left, and node 4 be
 
 Start with `invert_tree` in [implementation.py](implementation.py). Produce the result from the completed traversal.
 
+Run the example from the repository root with `uv run python -m tree.08_tree_transformation.invert_tree.implementation`.
+
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For N nodes and height H, worst-case time is O(N) and auxiliary space O(H + 1), excluding output.
@@ -67,6 +71,8 @@ Pointers are modified in place, so callers sharing the root see the new structur
 A mirror copy preserves both versions simultaneously.
 
 ## 15. Practice problems
+
+- LeetCode #226, Easy. Swap children at every node. [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
 
 **Original exercise · P1.** Modify the worked example by adding a leaf and predict what changes.
 

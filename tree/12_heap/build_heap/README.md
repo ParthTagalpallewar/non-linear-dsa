@@ -40,6 +40,8 @@ For [5, 2, 2, 1, 8], sift index 1 to position 3, then sift 5 from the root towar
 
 Start with `build_heap` in [implementation.py](implementation.py). Return the heap or selected item.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For N keys, time O(N) and output space O(N), with O(1) working space. At most about N/2^(h+1) nodes have height h.

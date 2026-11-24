@@ -42,6 +42,8 @@ In preorder [1, 2, 4, 5, 3], the key 2 appears at index 2 in postorder [4, 5, 2,
 
 Start with `full_from_preorder_postorder` in [implementation.py](implementation.py). Produce the result from the completed traversal.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For N nodes and height H, expected time is O(N) and auxiliary space O(N + H).

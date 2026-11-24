@@ -41,6 +41,8 @@ Initially 0 proposes 0—1, while 1 and 2 both propose 1—2. The two distinct m
 
 Start with `boruvka` in [implementation.py](implementation.py). Merge the candidates that still join distinct components and start another round.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For V vertices and E edges, there are O(log(V + 1)) rounds, costing O(V + E α(V) log(V + 1)) amortized time and O(V) auxiliary space.

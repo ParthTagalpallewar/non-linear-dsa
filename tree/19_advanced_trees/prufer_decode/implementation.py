@@ -25,3 +25,7 @@ def prufer_decode(code: list[int]) -> list[list[int]]:
     graph[first].append(second)
     graph[second].append(first)
     return graph
+
+
+if __name__ == "__main__":
+    print(prufer_decode([0, 1, 1]))

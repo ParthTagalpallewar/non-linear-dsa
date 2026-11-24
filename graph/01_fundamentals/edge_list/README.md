@@ -38,6 +38,8 @@ For three vertices and one edge, the list becomes [(0, 1, -2)]. Vertex 2 remains
 
 Start with `edge_list` in [implementation.py](implementation.py). Append the original orientation and weight.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For E edges, build time and output space are O(E), with O(1) auxiliary space. Finding all neighbors of a vertex costs O(E).

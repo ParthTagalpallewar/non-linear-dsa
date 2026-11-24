@@ -40,6 +40,10 @@ For a triangle with 0 colored white, both 1 and 2 must be black. Their shared ed
 
 Start with `bipartite_bfs` in [implementation.py](implementation.py). Use the final state to produce the result.
 
+Run the example from the repository root with `uv run python -m graph.05_graph_coloring.bipartite_bfs.implementation`.
+
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For V vertices and E edges, time is O(V + E) and auxiliary space is O(V). Each vertex is scheduled once and its adjacency is scanned once.
@@ -65,6 +69,8 @@ Restart at every uncolored vertex and reject self-loops.
 Compare the search state with the other implementations in this topic.
 
 ## 15. Practice problems
+
+- LeetCode #785, Medium. Two-color propagation across all components. [Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/)
 
 **Original exercise · P1.** Modify the example to include an isolated vertex and predict how the result changes.
 

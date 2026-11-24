@@ -36,3 +36,7 @@ def tarjan_scc(graph: list[list[int]]) -> list[list[int]]:
         if entry[vertex] == -1:
             visit(vertex)
     return groups
+
+
+if __name__ == "__main__":
+    print(tarjan_scc([[1], [0, 2], []]))

@@ -42,6 +42,8 @@ The sequence starts 8, 6, 4, so rank two gives 6.
 
 Start with `kth_largest` in [implementation.py](implementation.py). Return the selected value or updated result.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For tree height H and valid rank K, time O(H + K), auxiliary space O(H + 1). An invalid oversized rank scans all N nodes.

@@ -40,6 +40,8 @@ In a BST rooted at 2 with children 1 and 3, searching for the pair 1 and 3 split
 
 Start with `lca_bst` in [implementation.py](implementation.py). Produce the result from the completed traversal.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For height H, time O(H + 1) and auxiliary space O(1). A balanced tree gives O(log(N + 1)) time for N nodes.

@@ -42,6 +42,8 @@ In the example node 2's two child heights are 1 and 0. At the root the child hei
 
 Start with `is_balanced` in [implementation.py](implementation.py). Return the finalized measurement or predicate.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For N nodes and tree height H, time is O(N) and stack space O(H + 1).

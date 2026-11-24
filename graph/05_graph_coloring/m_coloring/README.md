@@ -40,6 +40,8 @@ For the triangle with two colors, assigning [0, 1, −1] leaves no choice for th
 
 Start with `m_coloring` in [implementation.py](implementation.py). Use the final state to produce the result.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For V vertices, E edges, and M colors, a loose upper bound is O((V + E)(M + 1)^V) time. Auxiliary space is O(V + E) in the worst case because active frames hold forbidden sets.

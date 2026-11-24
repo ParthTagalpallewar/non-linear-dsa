@@ -42,6 +42,8 @@ Root 1 and node 5 share offset zero. BFS sees 1 first and 5 later. This view ret
 
 Start with `top_view` in [implementation.py](implementation.py). Apply the view's selection policy and read columns in sorted offset order.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For N nodes, W maximum level size, and C columns, time is O(N + C log(C + 1)), and working space is O(W + C) plus stored values.

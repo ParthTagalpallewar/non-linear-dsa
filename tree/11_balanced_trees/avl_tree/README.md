@@ -44,6 +44,10 @@ Start with `avl_tree` in [implementation.py](implementation.py). Update cached h
 
 The complete search, insertion, deletion, and local repair code is in [tree/avl.py](../../avl.py).
 
+Run the example from the repository root with `uv run python -m tree.11_balanced_trees.avl_tree.implementation`.
+
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For N keys, search and update take O(log(N + 1)) time, with O(log(N + 1)) recursion space and O(N) storage.

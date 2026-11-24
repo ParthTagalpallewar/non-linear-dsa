@@ -40,6 +40,8 @@ Heapifying [8, 4, 2] in min order swaps 8 with 2 and stops at a leaf.
 
 Start with `heapify` in [implementation.py](implementation.py). Return the heap or selected item.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For a heap with N items, worst-case O(log(N + 1)) time and O(1) space. A root already in order takes O(1).

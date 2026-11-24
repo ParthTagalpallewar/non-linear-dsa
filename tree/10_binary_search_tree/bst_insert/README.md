@@ -42,6 +42,8 @@ To insert 3 into 4→left 2, choose the right child of 2 and attach there.
 
 Start with `bst_insert` in [implementation.py](implementation.py). Return the selected value or updated result.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For height H, time is O(H + 1) and auxiliary space O(1). Balance gives H=O(log N) for N nodes, while a chain has H=N−1.

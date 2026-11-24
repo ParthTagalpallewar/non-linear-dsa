@@ -42,6 +42,8 @@ For target 10, visiting 8 after 2 or 2 after 8 finds the complement.
 
 Start with `bst_two_sum` in [implementation.py](implementation.py). Return the selected value or updated result.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For N nodes, expected time O(N) and auxiliary space O(N) for the set and stack.

@@ -39,6 +39,8 @@ Expand 0 to {1, 2}, then 4 to {3}. Expanding 3 meets 1 and returns 1 + 1 + 1 = 3
 
 Start with `bidirectional_bfs` in [implementation.py](implementation.py). Expand one layer and return the sum of both distances plus the crossing edge.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 Worst case O(V + E) time and O(V) space for V vertices and E edges. With regular branching b and shortest distance d, two balanced searches can explore about O(b^(d/2)) states.

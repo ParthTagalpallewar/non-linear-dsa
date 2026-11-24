@@ -42,6 +42,10 @@ Depth 0 records 1. Depth 1 records 3. The only depth-2 node is 4, even if it lie
 
 Start with `right_view` in [implementation.py](implementation.py). Record a value only when the depth is first seen.
 
+Run the example from the repository root with `uv run python -m tree.03_tree_views.right_view.implementation`.
+
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For N nodes and height H, time is O(N) and auxiliary stack space is O(H + 1).

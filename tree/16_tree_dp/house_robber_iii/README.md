@@ -40,6 +40,8 @@ A root of value 4 with a left grandchild of 5 can take both, for 9. Skipping the
 
 Start with `house_robber_iii` in [implementation.py](implementation.py). Read the complete result from the computed states.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For N nodes and height H, O(N) time and O(H + 1) stack space.
@@ -65,6 +67,8 @@ Keep the skip result available even for a leaf with a negative value.
 An explicit DFS stack can produce the same parent-before-child order.
 
 ## 15. Practice problems
+
+- LeetCode #337, Medium. Take/skip states on binary trees. [House Robber III](https://leetcode.com/problems/house-robber-iii/)
 
 **Original exercise · P2.** Modify the worked example by adding a leaf and predict what changes.
 

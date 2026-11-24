@@ -42,6 +42,8 @@ After visiting 1, push [4, 3, 2]. Visiting 2 pushes 5 above 3 and 4.
 
 Start with `nary_traversal` in [implementation.py](implementation.py). Push its children in reverse order, repeating until the stack is empty.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For N nodes, time O(N) and worst-case stack O(N), since a single parent can have N−1 children.

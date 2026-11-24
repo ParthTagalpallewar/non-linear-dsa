@@ -57,3 +57,7 @@ def hungarian(cost: list[list[int]]) -> tuple[int, list[int]]:
         if owner[column]:
             assignment[owner[column] - 1] = column - 1
     return sum(cost[row][column] for row, column in enumerate(assignment)), assignment
+
+
+if __name__ == "__main__":
+    print(hungarian([[4, 1], [3, 2]]))

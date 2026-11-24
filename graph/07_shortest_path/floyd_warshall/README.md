@@ -38,6 +38,8 @@ After allowing intermediate 1, the route from 0 to 2 improves from infinity to 2
 
 Start with `floyd_warshall` in [implementation.py](implementation.py). Reject any negative diagonal after the updates.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For V vertices and E edges, time is O(V³ + E). The distance matrix uses O(V²) result space and the update uses O(1) additional space.

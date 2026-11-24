@@ -16,3 +16,7 @@ def count_paths_dag(graph: list[list[int]], source: int) -> list[int]:
         for target in graph[vertex]:
             paths[target] += paths[vertex]
     return paths
+
+
+if __name__ == "__main__":
+    print(count_paths_dag([[1, 2], [3], [3], []], 0))

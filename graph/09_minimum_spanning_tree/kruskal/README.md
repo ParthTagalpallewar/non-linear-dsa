@@ -41,6 +41,10 @@ Process 1—2 at weight 1, then 0—1 at weight 4. The weight-8 edge 0—2 is re
 
 Start with `kruskal` in [implementation.py](implementation.py). Append every edge that merges two components.
 
+Run the example from the repository root with `uv run python -m graph.09_minimum_spanning_tree.kruskal.implementation`.
+
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For V vertices and E edges, time is O(V + E log(E + 1)) and auxiliary space O(V + E), including the sorted copy.

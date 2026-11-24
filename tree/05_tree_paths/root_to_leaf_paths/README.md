@@ -42,6 +42,8 @@ The leaf routes are [1, 2, 4] and [1, 3]. The result is [[1, 2, 4], [1, 3]].
 
 Start with `root_to_leaf_paths` in [implementation.py](implementation.py). Produce the result from the completed traversal.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For N nodes, height H and total returned path length P, time is O(N + P) and auxiliary space O(H + 1) excluding the output.

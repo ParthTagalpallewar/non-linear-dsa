@@ -38,6 +38,8 @@ Scan [(1, 2, −3), (0, 1, 2)] from 0. The first pass gives [0, 2, ∞], and the
 
 Start with `bellman_ford` in [implementation.py](implementation.py). Reject further improvements as evidence of a reachable negative cycle.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For V vertices and E edges, time is O(VE + V) worst case and O(V + E) when the first pass is stable. Auxiliary space is O(V).

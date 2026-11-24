@@ -41,6 +41,8 @@ Starting from 0, choose 0—1 at weight 4. The cheapest crossing edge is now 1�
 
 Start with `prim_array` in [implementation.py](implementation.py). Include the chosen edge and record candidates from the new vertex.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For V vertices and E edges, time is O(V² + E) and auxiliary space O(V + E), including adjacency.

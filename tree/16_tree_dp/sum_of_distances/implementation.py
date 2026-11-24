@@ -16,3 +16,7 @@ def sum_of_distances(graph: list[list[int]], root: int = 0) -> list[int]:
         parent = tree.parent[vertex]
         total[vertex] = total[parent] + size - 2 * subtree[vertex]
     return total
+
+
+if __name__ == "__main__":
+    print(sum_of_distances([[1], [0, 2], [1]]))

@@ -42,6 +42,10 @@ On branch 1→2→4 with target 6, current prefix is 7 and prior prefix 1 yields
 
 Start with `path_sum_iii` in [implementation.py](implementation.py). Produce the result from the completed traversal.
 
+Run the example from the repository root with `uv run python -m tree.05_tree_paths.path_sum_iii.implementation`.
+
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For N nodes and height H, expected time is O(N) and space O(H + 1) for active prefixes and stack frames.
@@ -67,6 +71,8 @@ Look up older prefixes before inserting the current prefix so empty paths are ex
 An explicit stack avoids using Python call frames.
 
 ## 15. Practice problems
+
+- LeetCode #437, Medium. Branch-local prefix-sum frequencies. [Path Sum III](https://leetcode.com/problems/path-sum-iii/)
 
 **Original exercise · P1.** Modify the worked example by adding a leaf and predict what changes.
 

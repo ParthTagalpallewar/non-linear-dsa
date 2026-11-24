@@ -44,6 +44,8 @@ Start with `red_black_tree` in [implementation.py](implementation.py). Repair an
 
 The complete search, insertion, deletion, and local repair code is in [tree/red_black.py](../../red_black.py).
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For N keys, search and update take O(log(N + 1)) time, with O(log(N + 1)) recursion space and O(N) storage.

@@ -38,6 +38,8 @@ Values start at [−4, 5, 4]. Going from 0 to 1 gives 1, so 5 stays. Going from 
 
 Start with `dag_dp` in [implementation.py](implementation.py). Propagate each finalized score to its successors.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For V vertices and E edges, time is O(V + E), and auxiliary space is O(V) for ordering and state.

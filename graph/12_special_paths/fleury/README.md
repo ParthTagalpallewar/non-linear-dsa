@@ -40,6 +40,8 @@ At 0, the route to 3 is a bridge. Take the triangle edges first and finish with 
 
 Start with `fleury` in [implementation.py](implementation.py). Prefer a nonbridge and consume the chosen edge permanently.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For V vertices and E edges, each bridge test uses O(V + E) time. The implementation uses at most O(E²) candidate tests, giving a conservative O(E²(V + E) + V) bound and O(V + E) auxiliary space.

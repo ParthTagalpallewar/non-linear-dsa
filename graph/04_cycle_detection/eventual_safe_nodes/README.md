@@ -38,6 +38,8 @@ Vertex 3 is terminal and becomes safe first. Then 2 becomes safe. Vertex 0 still
 
 Start with `eventual_safe_nodes` in [implementation.py](implementation.py). Use the final state to produce the result.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For V vertices and E edges, time and auxiliary space are O(V + E) because we build and traverse the reverse graph.
@@ -63,6 +65,8 @@ One route to a terminal is insufficient when another route reaches a cycle.
 Compare the search state with the other implementations in this topic.
 
 ## 15. Practice problems
+
+- LeetCode #802, Medium. Reverse edge elimination from terminal states. [Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/)
 
 **Original exercise · P1.** Modify the example to include an isolated vertex and predict how the result changes.
 

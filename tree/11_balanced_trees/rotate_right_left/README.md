@@ -41,6 +41,8 @@ Starting with root 1, the rotation places 2 above children 1 and 3.
 
 Start with `rotate_right_left` in [implementation.py](implementation.py). Refresh heights from the lower pivot upward and return the new root.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 One or two rotations touch a constant number of nodes, so time and auxiliary space are O(1).

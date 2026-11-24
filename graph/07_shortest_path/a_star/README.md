@@ -39,6 +39,8 @@ In the example, 1 is first expanded at g=4. Vertex 2 later improves it to g=3, a
 
 Start with `a_star` in [implementation.py](implementation.py). When the goal is popped, reconstruct the path from predecessors.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For V vertices and E edges, with a consistent heuristic and O(1) evaluation, time is O(V + E log(E + 1)) and space O(V + E). An inconsistent heuristic can cause many re-expansions.

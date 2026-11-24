@@ -10,20 +10,20 @@
 - [x] Phase 8 · BST, balanced trees, heaps, and tries
 - [x] Phase 9 · Segment trees, Fenwick trees, tree DP, and tree queries
 - [x] Phase 10 · Multiway trees and advanced tree algorithms
-- [ ] Phase 11 · Reference guides, complete index, and interview checklist
+- [x] Phase 11 · Reference guides, complete index, and interview checklist
 - [ ] Phase 12 · Full verification on the completed project
 - [ ] Phase 13 · Acceptance audit and GitHub push
 
 ## Verification
 
-The first 201 lessons have a 16-section README, implementation, and tests.
+All 205 lessons have a 16-section README, implementation, and tests.
 On Python 3.12, locked dependency sync, Ruff linting and formatting checks,
-and pytest passed with 295 tests. Relative Markdown links resolved locally.
+and pytest passed with 299 tests. Relative Markdown links resolved locally.
 The CI workflow covers Python 3.10 and 3.14.
 
 ## Next task
 
-Complete phase 11 reference guides, root index, complexity tables, learning order, and interview checklist. Then run the full verification and acceptance audit.
+Run the full verification matrix and audit the original topic inventory before pushing.
 
 ## GitHub
 

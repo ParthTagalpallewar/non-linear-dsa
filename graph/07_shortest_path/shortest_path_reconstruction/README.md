@@ -39,6 +39,8 @@ Vertex 1 first gets parent 0 and later gets parent 2. Backtracking produces [1, 
 
 Start with `shortest_path_reconstruction` in [implementation.py](implementation.py). Walk backward from target through predecessors and reverse.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For V vertices and E edges, Dijkstra dominates at O(V + E log(E + 1)) time and O(V + E) space. Reversing a route with K vertices takes O(K).

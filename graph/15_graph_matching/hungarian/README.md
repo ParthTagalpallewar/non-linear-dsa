@@ -40,6 +40,10 @@ W0 can take T1 at cost 1. For W1, taking the unused T0 at cost 3 gives assignmen
 
 Start with `hungarian` in [implementation.py](implementation.py). When a free column is reached, follow predecessor columns to rotate assignments.
 
+Run the example from the repository root with `uv run python -m graph.15_graph_matching.hungarian.implementation`.
+
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For R rows and C columns with R≤C, time is O(R²C) and auxiliary space is O(R + C). Each new row expands at most R columns and scans C per expansion.

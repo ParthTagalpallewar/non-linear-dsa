@@ -44,3 +44,7 @@ def deserialize_bfs(data: str) -> BinaryNode | None:
     if next(tokens, None) is not None:
         raise ValueError("trailing tokens")
     return root
+
+
+if __name__ == "__main__":
+    print(serialize_bfs(BinaryNode(1, BinaryNode(2))))

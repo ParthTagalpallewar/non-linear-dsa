@@ -41,6 +41,8 @@ From ca, emit ca itself if marked. Visit b, r, and t children in that order.
 
 Start with `autocomplete` in [implementation.py](implementation.py). Return the result for the completed prefix or key.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For P prefix characters, U trie nodes scanned, D maximum branching, and output length S, expected time O(P + U log(D + 1) + S). Auxiliary space includes recursion depth and sorted child lists on its active path.

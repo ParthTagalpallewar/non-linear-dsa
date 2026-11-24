@@ -38,6 +38,8 @@ Queue [0, 3] grows to [3, 1], then [1, 2]. Both 1 and 2 get distance 1.
 
 Start with `multi_source_bfs` in [implementation.py](implementation.py). Assign each first-seen neighbor its predecessor's distance plus one.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For S source entries, V reached vertices and E inspected edges, time is O(S + V + E) and space is O(V), including the distance result.

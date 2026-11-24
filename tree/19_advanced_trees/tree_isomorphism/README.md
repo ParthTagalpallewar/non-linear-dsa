@@ -42,6 +42,8 @@ On the pictured tree, trimming leaves 2, 3, and 4 leaves centers 0 and 1. Trying
 
 Start with `tree_isomorphism` in [implementation.py](implementation.py). Encode shapes bottom-up and test whether any rooted shapes match.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For N vertices and maximum degree D, expected time O(N log(D + 1)) and auxiliary space O(N), because at most two roots per tree are encoded.

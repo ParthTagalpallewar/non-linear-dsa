@@ -38,6 +38,10 @@ From [0, 1, 2, 3], union(0, 1) gives [0, 0, 2, 3]. Union(2, 1) gives [2, 0, 2, 3
 
 Start with `BasicDisjointSet` in [implementation.py](implementation.py). Point one distinct representative at the other to merge.
 
+Run the example from the repository root with `uv run python -m graph.08_disjoint_set.basic_disjoint_set.implementation`.
+
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For V elements, setup and storage are O(V). Find and union take O(V) worst case and O(1) best case.

@@ -38,6 +38,8 @@ Starting at 0 gives distance 0. Processing 0 discovers 1 at distance 1. Processi
 
 Start with `unweighted_bfs` in [implementation.py](implementation.py). Assign distance one more than the current vertex to each unseen neighbor.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For V vertices and E adjacency entries, time is O(V + E), with O(V) space for distances and the queue.

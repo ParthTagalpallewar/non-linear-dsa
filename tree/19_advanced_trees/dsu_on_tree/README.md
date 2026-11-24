@@ -42,6 +42,8 @@ If node 1 has color 7 and its children have colors 7 and 9, merging gives {7,9}.
 
 Start with `dsu_on_tree` in [implementation.py](implementation.py). Swap sets when needed so only the smaller one is iterated.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For N vertices, expected time O(N log(N + 1)) and auxiliary space O(N), under constant-time set operations.

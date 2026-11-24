@@ -38,6 +38,8 @@ For tests requiring app and app requiring lib, lib is ready first. Removing lib 
 
 Start with `dependency_resolution` in [implementation.py](implementation.py). Use the final state to produce the result.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For V distinct names and E requirement entries, expected time and auxiliary space are O(V + E), counting dictionary operations as constant time.

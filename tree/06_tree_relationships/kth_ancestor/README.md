@@ -42,6 +42,8 @@ From node 4, one step reaches node 2 and two steps reach node 1. A third step ha
 
 Start with `kth_ancestor` in [implementation.py](implementation.py). Produce the result from the completed traversal.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For N nodes, worst-case time and auxiliary space are O(N) due to parent indexing.

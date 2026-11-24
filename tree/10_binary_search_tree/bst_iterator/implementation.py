@@ -15,3 +15,7 @@ def bst_iterator(root: BinaryNode | None) -> Iterator[int]:
         root = stack.pop()
         yield root.value
         root = root.right
+
+
+if __name__ == "__main__":
+    print(list(bst_iterator(BinaryNode(2, BinaryNode(1), BinaryNode(3)))))

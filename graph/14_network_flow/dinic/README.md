@@ -39,6 +39,10 @@ Levels are s=0, a=b=1, t=2. One phase sends 2 through a and 2 through b. A secon
 
 Start with `dinic` in [implementation.py](implementation.py). Keep current-edge cursors and rebuild levels only after all layered routes are blocked.
 
+Run the example from the repository root with `uv run python -m graph.14_network_flow.dinic.implementation`.
+
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For V vertices and E edges, general worst-case time is O(V²E) plus setup and auxiliary space is O(V + E). Each blocking phase costs O(VE), and the sink's level increases between successful phases.

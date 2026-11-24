@@ -42,6 +42,8 @@ Create the thread 2→1, then 4→2. After visiting 4, follow its thread to 2 an
 
 Start with `morris_preorder` in [implementation.py](implementation.py). Emit before descending left.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For N nodes, time is O(N), with O(1) auxiliary space besides O(N) output. Each traversed edge is examined a constant number of times.

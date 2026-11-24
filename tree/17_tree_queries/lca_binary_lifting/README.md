@@ -42,6 +42,8 @@ Nodes 3 and 2 begin one depth apart. Align 3 to 1. Then 1 and 2 have equal paren
 
 Start with `lca_binary_lifting` in [implementation.py](implementation.py). Return the result for each requested vertex or pair.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For N nodes, query time O(log(N + 1)), working space O(1), and preprocessing time and storage O(N log(N + 1)).

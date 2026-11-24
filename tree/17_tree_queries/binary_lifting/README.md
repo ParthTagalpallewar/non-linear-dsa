@@ -42,6 +42,8 @@ On a five-node chain rooted at one end, the other end's jumps of 1, 2, and 4 rea
 
 Start with `binary_lifting` in [implementation.py](implementation.py). Return the result for each requested vertex or pair.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For N nodes, preprocessing takes O(N log(N + 1)) time and storage. A jump query uses O(log(N + 1)) time and O(1) working space.

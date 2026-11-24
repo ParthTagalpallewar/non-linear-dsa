@@ -38,6 +38,8 @@ Querying 0 and 2 before additions returns false. After adding 0—1 and 1—2 it
 
 Start with `dynamic_connectivity` in [implementation.py](implementation.py). Compare roots on a connectivity query.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For V vertices and Q operations, time is O(V + Q α(V)) amortized. Working space is O(V), plus the query answers.

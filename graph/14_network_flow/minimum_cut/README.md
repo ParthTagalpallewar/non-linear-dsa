@@ -39,6 +39,8 @@ After sending 4 units, s can reach a with the remaining unit on s→a. The cut c
 
 Start with `minimum_cut` in [implementation.py](implementation.py). Collect original edges crossing from the reachable side to its complement.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For V vertices and E edges, maximum flow dominates at O(V E²) plus O(V + E) setup and extraction. Working space is O(V + E).

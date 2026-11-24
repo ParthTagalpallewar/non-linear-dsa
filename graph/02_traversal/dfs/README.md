@@ -39,6 +39,8 @@ The call stack grows from [0] to [0, 1, 3], unwinds to [0], then explores 2.
 
 Start with `dfs` in [implementation.py](implementation.py). Resume the current loop after each child returns.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For V reachable vertices and E outgoing edges inspected, time is O(V + E) and auxiliary space is O(V).

@@ -42,6 +42,8 @@ On a depth-six chain, k=5 is binary 101. Jump by one and four edges to land at d
 
 Start with `kth_ancestor_binary_lifting` in [implementation.py](implementation.py). Return the result for each requested vertex or pair.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For N nodes, worst-case O(log(N + 1)) time per query, plus the shared table's O(N log(N + 1)) build time and space.

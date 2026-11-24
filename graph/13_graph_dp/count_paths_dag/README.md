@@ -39,6 +39,10 @@ After 0, counts are [1, 1, 1, 0]. Edges from 1 and 2 raise the count at 3 to 2.
 
 Start with `count_paths_dag` in [implementation.py](implementation.py). Add each vertex's count once per outgoing edge.
 
+Run the example from the repository root with `uv run python -m graph.13_graph_dp.count_paths_dag.implementation`.
+
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For V vertices and E edges, there are O(V + E) operations and O(V) stored counts. Python large-integer addition can add bit complexity as counts grow.

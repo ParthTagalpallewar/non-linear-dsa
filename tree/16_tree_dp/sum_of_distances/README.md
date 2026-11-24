@@ -40,6 +40,10 @@ From root 0 the total is 5. Shifting to 1 brings three vertices closer and one f
 
 Start with `sum_of_distances` in [implementation.py](implementation.py). Read the complete result from the computed states.
 
+Run the example from the repository root with `uv run python -m tree.16_tree_dp.sum_of_distances.implementation`.
+
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For N nodes, O(N) time and O(N) auxiliary space. The rooted tree has N−1 undirected edges.
@@ -65,6 +69,8 @@ Subtree sizes must refer to the original rooting used for parent links.
 Running BFS separately from every vertex is simple but takes O(N²) time.
 
 ## 15. Practice problems
+
+- LeetCode #834, Hard. Rerooting with subtree sizes. [Sum of Distances in Tree](https://leetcode.com/problems/sum-of-distances-in-tree/)
 
 **Original exercise · P2.** Modify the worked example by adding a leaf and predict what changes.
 

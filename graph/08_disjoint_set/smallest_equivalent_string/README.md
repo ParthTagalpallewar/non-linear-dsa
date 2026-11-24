@@ -38,6 +38,8 @@ With b equivalent to c and c equivalent to a, all three become a. The final z in
 
 Start with `smallest_equivalent_string` in [implementation.py](implementation.py). Replace each character with that minimum.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For P pairs, T output characters and A distinct characters, expected time is O(A log A + (P + T + A) α(A)). Auxiliary space is O(P + T + A), including temporary input concatenation.

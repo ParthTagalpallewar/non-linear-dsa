@@ -40,6 +40,8 @@ Removing 1 from [1, 4, 3] moves 3 to the root and it already outranks 4.
 
 Start with `heap_delete` in [implementation.py](implementation.py). Return the heap or selected item.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For N keys, worst-case time O(log(N + 1)), best-case O(1), and O(1) auxiliary space.

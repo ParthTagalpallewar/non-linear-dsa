@@ -16,3 +16,7 @@ def maximum_xor(values: list[int]) -> int:
         answer = max(answer, trie.best_xor(value))
         trie.insert(value)
     return answer
+
+
+if __name__ == "__main__":
+    print(maximum_xor([3, 10, 5, 25, 2, 8]))

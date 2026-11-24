@@ -42,6 +42,10 @@ The first call pushes 4 and 2 and yields 2. Resuming pops and yields 4, then vis
 
 Start with `bst_iterator` in [implementation.py](implementation.py). Return the selected value or updated result.
 
+Run the example from the repository root with `uv run python -m tree.10_binary_search_tree.bst_iterator.implementation`.
+
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For N nodes and height H, full iteration takes O(N) time and O(H + 1) space. Each node is pushed and popped once, so yields cost amortized O(1) over the full scan.

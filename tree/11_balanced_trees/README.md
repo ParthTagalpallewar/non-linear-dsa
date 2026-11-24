@@ -21,3 +21,7 @@ Complete implementations: [AVL](../avl.py) and [left-leaning red-black](../red_b
 - [ ] [AVL Tree Insertion and Deletion](avl_updates/README.md) · P2
 - [ ] [Red-Black Tree](red_black_tree/README.md) · P3
 - [ ] [Red-Black Tree Insertion and Deletion](red_black_updates/README.md) · P3
+- [ ] [AVL Tree Insertion](avl_insert/README.md) · P2
+- [ ] [AVL Tree Deletion](avl_delete/README.md) · P2
+- [ ] [Red-Black Tree Insertion](red_black_insert/README.md) · P3
+- [ ] [Red-Black Tree Deletion](red_black_delete/README.md) · P3

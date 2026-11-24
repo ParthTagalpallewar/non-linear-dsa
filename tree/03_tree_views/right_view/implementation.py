@@ -16,3 +16,7 @@ def right_view(root: BinaryNode | None) -> list[int]:
         pending.append((node.left, depth + 1))
         pending.append((node.right, depth + 1))
     return result
+
+
+if __name__ == "__main__":
+    print(right_view(BinaryNode(1, BinaryNode(2), BinaryNode(3))))

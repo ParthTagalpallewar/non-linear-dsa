@@ -42,6 +42,10 @@ The branches below 1 emit [1, 3, 1, 4, 1]. Returning to 0 then exploring 2 compl
 
 Start with `euler_tour` in [implementation.py](implementation.py). Return the result for each requested vertex or pair.
 
+Run the example from the repository root with `uv run python -m tree.17_tree_queries.euler_tour.implementation`.
+
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For N vertices, time and auxiliary space O(N), and a nonempty tree emits 2N−1 positions.

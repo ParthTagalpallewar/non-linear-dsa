@@ -16,3 +16,7 @@ def directed_cycle_dfs(graph: list[list[int]]) -> bool:
         return False
 
     return any(state[vertex] == 0 and visit(vertex) for vertex in range(len(graph)))
+
+
+if __name__ == "__main__":
+    print(directed_cycle_dfs([[1], [0]]))

@@ -22,3 +22,7 @@ def level_order(root: BinaryNode | None) -> list[list[int]]:
                 pending.append(node.right)
         levels.append(level)
     return levels
+
+
+if __name__ == "__main__":
+    print(level_order(BinaryNode(1, BinaryNode(2), BinaryNode(3))))

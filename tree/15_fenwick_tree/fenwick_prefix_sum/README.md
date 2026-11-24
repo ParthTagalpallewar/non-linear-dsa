@@ -40,6 +40,8 @@ For [4, −2, 5, 1], prefix end 3 uses blocks ending at 3 and 2 for a sum of 7.
 
 Start with `fenwick_prefix_sum` in [implementation.py](implementation.py). Return the aggregate or keep the updated state for later queries.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For N values, query and update time is O(log(N + 1)). The tree stores O(N) values. The index walk uses O(1) auxiliary space.

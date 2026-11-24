@@ -42,6 +42,8 @@ From the example, append root 1, left internal node 2, and leaves 4 and 3.
 
 Start with `boundary` in [implementation.py](implementation.py). Emit leaves left to right, then append the reversed right-side nonleaves.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For N nodes and height H, time is O(N) and auxiliary space O(H + 1) excluding the result.

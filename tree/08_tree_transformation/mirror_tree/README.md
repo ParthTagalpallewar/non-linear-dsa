@@ -42,6 +42,8 @@ Root 1 still has value 1. Child 2 moves right, child 3 moves left, and node 4 be
 
 Start with `mirror_tree` in [implementation.py](implementation.py). Produce the result from the completed traversal.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For N nodes and height H, worst-case time is O(N) and auxiliary space O(H + 1), excluding output.

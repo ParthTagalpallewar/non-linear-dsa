@@ -40,6 +40,8 @@ For 0→1, row 0 changes from [False, False] to [False, True]. Row 1 stays false
 
 Start with `adjacency_matrix` in [implementation.py](implementation.py). Mark the transposed cell for undirected edges.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 V vertices and E edges take O(V² + E) build time and O(V²) output space with O(1) auxiliary space. An edge query is O(1) and a neighbor scan is O(V).

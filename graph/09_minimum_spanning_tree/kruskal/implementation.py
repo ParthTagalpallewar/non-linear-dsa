@@ -12,3 +12,7 @@ def kruskal(vertex_count: int, edges: list[Edge]) -> list[Edge]:
         if sets.union(left, right):
             forest.append((left, right, weight))
     return forest
+
+
+if __name__ == "__main__":
+    print(kruskal(3, [(0, 1, 4), (1, 2, 1), (0, 2, 8)]))

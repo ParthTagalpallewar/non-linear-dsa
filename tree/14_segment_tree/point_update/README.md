@@ -40,6 +40,8 @@ After adding 3 globally, [4, 3, 2] becomes [7, 6, 5]. Assigning −1 at index 1 
 
 Start with `point_update` in [implementation.py](implementation.py). Return the aggregate or keep the updated state for later queries.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For N values, query and update time is O(log(N + 1)). The tree stores O(N) values.

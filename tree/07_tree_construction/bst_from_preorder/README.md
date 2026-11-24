@@ -42,6 +42,8 @@ For [8, 5, 1, 7, 10], the key 7 is outside the bounds for children of 1 but fits
 
 Start with `bst_from_preorder` in [implementation.py](implementation.py). Produce the result from the completed traversal.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For N nodes and height H, worst-case time is O(N) and auxiliary space O(H + 1), excluding output.

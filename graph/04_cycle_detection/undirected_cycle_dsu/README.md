@@ -39,6 +39,8 @@ Unions (0, 1) and (1, 2) succeed. Union (2, 0) sees the same representative and 
 
 Start with `undirected_cycle_dsu` in [implementation.py](implementation.py). Use the final state to produce the result.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For V vertices and E edges, initialization costs O(V), edge processing costs O(E α(V)) amortized, and auxiliary space is O(V).

@@ -9,3 +9,7 @@ def kahn(graph: list[list[int]]) -> list[int]:
     if len(order) != len(graph):
         raise ValueError("graph has a directed cycle")
     return order
+
+
+if __name__ == "__main__":
+    print(kahn([[1, 2], [2], []]))

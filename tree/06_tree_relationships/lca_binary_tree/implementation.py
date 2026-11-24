@@ -20,3 +20,8 @@ def lca_binary_tree(
     while current not in ancestors:
         current = parents[current]
     return current
+
+
+if __name__ == "__main__":
+    left, right = BinaryNode(2), BinaryNode(3)
+    print(lca_binary_tree(BinaryNode(1, left, right), left, right))

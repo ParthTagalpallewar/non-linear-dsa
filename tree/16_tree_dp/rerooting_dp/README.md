@@ -40,6 +40,8 @@ From root 0 the total is 5. Shifting to 1 brings three vertices closer and one f
 
 Start with `rerooting_dp` in [implementation.py](implementation.py). Read the complete result from the computed states.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For N nodes, O(N) time and O(N) auxiliary space. The rooted tree has N−1 undirected edges.

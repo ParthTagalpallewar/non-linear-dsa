@@ -42,6 +42,8 @@ Starting at node 2, layer zero contains 2, layer one contains 4 and 1, and layer
 
 Start with `nodes_at_distance_k` in [implementation.py](implementation.py). Produce the result from the completed traversal.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For N nodes, worst-case time and auxiliary space are O(N) due to parent indexing.

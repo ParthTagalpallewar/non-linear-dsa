@@ -41,6 +41,10 @@ With 001 and 111 already indexed, query 010 prefers the path beginning with 1, g
 
 Start with `maximum_xor` in [implementation.py](implementation.py). Return the result for the completed prefix or key.
 
+Run the example from the repository root with `uv run python -m tree.13_trie.maximum_xor.implementation`.
+
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For N integers of maximum bit width B, there are O(NB) trie operations and O(NB) space. Python arbitrary-sized bit operations may have extra bit costs.
@@ -66,6 +70,8 @@ Query before insertion to enforce distinct input indices.
 Exhaustive comparison uses O(N²) time and constant extra storage.
 
 ## 15. Practice problems
+
+- LeetCode #421, Medium. Greedy high-bit choice with a binary trie. [Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/)
 
 **Original exercise · P2.** Modify the worked example by adding a leaf and predict what changes.
 

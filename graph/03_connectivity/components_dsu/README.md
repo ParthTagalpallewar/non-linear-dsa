@@ -38,6 +38,8 @@ The edge 0—1 merges those two singleton sets. No edge touches 2, so it remains
 
 Start with `components_dsu` in [implementation.py](implementation.py). Group vertices by their final representative.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 With V vertices and E edges, time is O((V + E) α(V)) amortized and auxiliary space is O(V). The inverse Ackermann function α grows extremely slowly.

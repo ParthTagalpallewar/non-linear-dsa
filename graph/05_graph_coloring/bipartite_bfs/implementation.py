@@ -20,3 +20,7 @@ def bipartite_bfs(graph: list[list[int]]) -> bool:
                     colors[neighbor] = 1 - colors[vertex]
                     pending.append(neighbor)
     return True
+
+
+if __name__ == "__main__":
+    print(bipartite_bfs([[1], [0, 2], [1]]))

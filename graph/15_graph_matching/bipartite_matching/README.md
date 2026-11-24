@@ -40,6 +40,8 @@ L0 takes R0 first. Searching from L1 moves L0 to R1 and leaves R0 available for 
 
 Start with `bipartite_matching` in [implementation.py](implementation.py). Reassign each pair while unwinding a successful search.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For L left vertices, R right vertices, E edges and M matched pairs, time is O(L(E + 1) + R + M log(M + 1)) and space O(L + R).

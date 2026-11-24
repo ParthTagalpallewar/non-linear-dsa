@@ -38,6 +38,8 @@ For [0, 0, 1, 3], find(2) walks 2→1→0. The array becomes [0, 0, 0, 3].
 
 Start with `compress_path` in [implementation.py](implementation.py). Redirect the traversed vertices to that root.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For a traversed path of H links, time is O(H + 1) and auxiliary space is O(1). H can be V−1 for V elements.

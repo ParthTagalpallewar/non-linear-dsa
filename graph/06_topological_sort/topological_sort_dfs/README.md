@@ -38,6 +38,8 @@ For 0→1→2 the finish list is [2, 1, 0], so the answer is [0, 1, 2].
 
 Start with `topological_sort_dfs` in [implementation.py](implementation.py). Use the final state to produce the result.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For V vertices and E edges, time is O(V + E) and auxiliary space is O(V). Each vertex is scheduled once and its adjacency is scanned once.
@@ -63,6 +65,8 @@ Track active vertices and reject back edges before trusting the order.
 Compare the search state with the other implementations in this topic.
 
 ## 15. Practice problems
+
+- LeetCode #210, Medium. Reverse finish order and directed cycle detection. [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)
 
 **Original exercise · P1.** Modify the example to include an isolated vertex and predict how the result changes.
 

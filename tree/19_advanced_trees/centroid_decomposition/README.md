@@ -42,6 +42,8 @@ For the pictured tree, removing node 1 leaves component {0,2} and singleton comp
 
 Start with `centroid_decomposition` in [implementation.py](implementation.py). Remove it and process each surviving component with this centroid as its decomposition parent.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For N vertices, each vertex and edge is inspected O(log(N + 1)) times across decomposition levels, giving O(N log(N + 1)) time and O(N) space.

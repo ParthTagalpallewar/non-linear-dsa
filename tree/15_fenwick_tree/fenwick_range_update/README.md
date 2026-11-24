@@ -40,6 +40,8 @@ Adding 3 to [1, 3) adds 3 to difference[1] and subtracts 3 from difference[3]. A
 
 Start with `fenwick_range_update` in [implementation.py](implementation.py). Return the aggregate or keep the updated state for later queries.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For N values, query and update time is O(log(N + 1)). The tree stores O(N) values. Two arrays are needed, and operations use O(1) auxiliary space.

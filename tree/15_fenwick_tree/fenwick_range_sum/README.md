@@ -40,6 +40,8 @@ In [4, −2, 5, 1], prefix(3)=7 and prefix(1)=4, so [1, 3) sums to 3.
 
 Start with `fenwick_range_sum` in [implementation.py](implementation.py). Return the aggregate or keep the updated state for later queries.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For N values, query and update time is O(log(N + 1)). The tree stores O(N) values. The index walk uses O(1) auxiliary space.

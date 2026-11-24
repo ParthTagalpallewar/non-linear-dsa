@@ -40,6 +40,10 @@ Adding 2 to all four items changes the sum from 10 to 18 at the root alone. A la
 
 Start with `lazy_propagation` in [implementation.py](implementation.py). Return the aggregate or keep the updated state for later queries.
 
+Run the example from the repository root with `uv run python -m tree.14_segment_tree.lazy_propagation.implementation`.
+
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For N values, query and update time is O(log(N + 1)). The tree stores O(N) values. For U updates after build, total time O(N + U log(N + 1)) excluding output.

@@ -42,6 +42,10 @@ Create leaf 4, then node 2 with 4 as its child. Supply 2 and 3 to the root const
 
 Start with `binary_node` in [implementation.py](implementation.py). Leave children absent for a leaf.
 
+Run the example from the repository root with `uv run python -m tree.01_fundamentals.binary_node.implementation`.
+
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 O(1) time and space per binary node.

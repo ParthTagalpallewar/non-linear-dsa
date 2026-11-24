@@ -42,6 +42,10 @@ Start with `b_plus_tree` in [implementation.py](implementation.py). Update the r
 
 See the complete [search, split, borrow, and merge code](../../b_plus_tree.py).
 
+Run the example from the repository root with `uv run python -m tree.18_multiway_trees.b_plus_tree.implementation`.
+
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For N records, minimum degree t, and height H=O(logₜ(N + 1)), search takes O(H log t) comparisons. Updates take O(t(H + 1)) time with Python list shifts. The index stores O(N) keys and child links.

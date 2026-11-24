@@ -38,6 +38,8 @@ For [0, 0, 1, 3], find(2) walks 2→1→0. The array stays unchanged.
 
 Start with `find_ultimate_parent` in [implementation.py](implementation.py). Return that root without changing the forest.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For a traversed path of H links, time is O(H + 1) and auxiliary space is O(1). H can be V−1 for V elements.

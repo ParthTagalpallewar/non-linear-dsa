@@ -42,6 +42,8 @@ Depth 0 records 1. Depth 1 records 2. The only depth-2 node is 4, even if it lie
 
 Start with `left_view` in [implementation.py](implementation.py). Record a value only when the depth is first seen.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For N nodes and height H, time is O(N) and auxiliary stack space is O(H + 1).

@@ -42,6 +42,8 @@ For path 4→2, 4 can be a separate chain. Sum its slot, jump to 1, then handle 
 
 Start with `heavy_light_decomposition` in [implementation.py](implementation.py). Climb from the deeper chain head, summing each contiguous segment before the final shared chain.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For N vertices, preprocessing and storage are O(N), point assignments O(log(N + 1)), and path sums O(log²(N + 1)) with O(1) per-query auxiliary space.

@@ -40,6 +40,8 @@ For the star centered at 1, choosing 1 gives size one. Skipping it allows leaves
 
 Start with `maximum_independent_set` in [implementation.py](implementation.py). Read the complete result from the computed states.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For N nodes, O(N) time and O(N) auxiliary space. The rooted tree has N−1 undirected edges.

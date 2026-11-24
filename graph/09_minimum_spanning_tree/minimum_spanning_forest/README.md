@@ -41,6 +41,8 @@ The triangle produces its two cheapest connecting edges. A fourth isolated verte
 
 Start with `minimum_spanning_forest` in [implementation.py](implementation.py). Keep each edge that joins two different partial trees and retain all isolated vertices through the vertex count.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For V vertices and E edges, time is O(V + E log(E + 1)) and auxiliary space O(V + E) with a sorted edge copy.

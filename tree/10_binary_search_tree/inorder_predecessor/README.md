@@ -42,6 +42,8 @@ With sorted keys [1, 2, 3, 4, 6, 8], target 5 gives 4. Requires strict inequalit
 
 Start with `inorder_predecessor` in [implementation.py](implementation.py). Return the selected value or updated result.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For height H, time is O(H + 1) and auxiliary space O(1). Balance gives H=O(log N) for N nodes, while a chain has H=N−1.

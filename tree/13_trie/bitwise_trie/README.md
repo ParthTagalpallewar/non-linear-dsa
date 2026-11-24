@@ -41,6 +41,8 @@ At width 3, the values 1 and 3 are 001 and 011. They share the first zero edge.
 
 Start with `bitwise_trie` in [implementation.py](implementation.py). Return the result for the completed prefix or key.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For N inserted values and width B, there are O(NB) operations and up to O(NB) stored nodes. Per-value updates need O(1) working space at fixed B.

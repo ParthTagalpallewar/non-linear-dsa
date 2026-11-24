@@ -39,6 +39,8 @@ Augment 2 along s→a→t and 2 along s→b→t. The remaining first branch has 
 
 Start with `ford_fulkerson` in [implementation.py](implementation.py). Subtract the bottleneck on forward arcs, add it on reverse arcs, and repeat until no path remains.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For V vertices and E arcs the running time is O((F + 1)(V + E)) for integral maximum flow F. Residual storage and traversal state use O(V + E) space.

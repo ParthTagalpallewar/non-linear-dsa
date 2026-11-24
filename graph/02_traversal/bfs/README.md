@@ -44,6 +44,8 @@ Adjacency lists, sets, and FIFO queues.
 
 Start with `bfs` in [implementation.py](implementation.py). Mark each unseen neighbor before adding it to the queue.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For V reachable vertices and E outgoing edges inspected, time is O(V + E) and auxiliary space is O(V).

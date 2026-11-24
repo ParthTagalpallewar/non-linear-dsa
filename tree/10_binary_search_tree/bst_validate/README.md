@@ -42,6 +42,8 @@ A right child of node 2 in the left subtree of root 4 must lie strictly between 
 
 Start with `bst_validate` in [implementation.py](implementation.py). Return the selected value or updated result.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For N nodes and height H, worst-case time O(N) and auxiliary space O(H + 1).
@@ -67,6 +69,8 @@ Checking only immediate child values misses deep violations.
 A strict BST has strictly increasing inorder output, so a single previous key can also validate it.
 
 ## 15. Practice problems
+
+- LeetCode #98, Medium. Strict ancestor bounds. [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
 
 **Original exercise · P1.** Modify the worked example by adding a leaf and predict what changes.
 

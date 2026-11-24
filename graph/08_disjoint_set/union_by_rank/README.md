@@ -38,6 +38,8 @@ Merge 0 with 1 and 2 with 3 to get two rank-one roots. Merging those roots creat
 
 Start with `RankDisjointSet` in [implementation.py](implementation.py). Increase the winner's rank only on a tie.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For V elements, storage and setup are O(V). With path halving, operations take O(α(V)) amortized.

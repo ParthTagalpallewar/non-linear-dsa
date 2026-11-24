@@ -42,6 +42,8 @@ Entry order is [1, 2, 4, 3]. Node 2 gets interval [1, 3), covering itself and no
 
 Start with `ancestor_queries` in [implementation.py](implementation.py). Produce the result from the completed traversal.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For N nodes and Q queries, expected time is O(N + Q) and auxiliary space O(N), excluding output.

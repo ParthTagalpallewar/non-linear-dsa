@@ -42,6 +42,8 @@ Starting from target 7, visiting 1, then 2, then 4 leaves residuals 6, 4, and 0.
 
 Start with `root_to_leaf_path_sum` in [implementation.py](implementation.py). Produce the result from the completed traversal.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For N nodes and height H, worst-case time is O(N) and auxiliary space O(H + 1), excluding output.

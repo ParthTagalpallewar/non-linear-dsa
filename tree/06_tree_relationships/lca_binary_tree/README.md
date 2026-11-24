@@ -42,6 +42,10 @@ For nodes 4 and 3, mark 4→2→1. Walking 3→1 meets that chain at 1.
 
 Start with `lca_binary_tree` in [implementation.py](implementation.py). Produce the result from the completed traversal.
 
+Run the example from the repository root with `uv run python -m tree.06_tree_relationships.lca_binary_tree.implementation`.
+
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For N nodes, worst-case time and auxiliary space are O(N) due to parent indexing.

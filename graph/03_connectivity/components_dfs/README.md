@@ -38,6 +38,8 @@ The stack starts with [0]. Processing 0 adds 1. The next unseen seed is 2.
 
 Start with `components_dfs` in [implementation.py](implementation.py). Save the visited group and resume scanning seeds.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For V vertices and E undirected edges, time is O(V + E) and auxiliary space is O(V). Each adjacency entry is scanned once.

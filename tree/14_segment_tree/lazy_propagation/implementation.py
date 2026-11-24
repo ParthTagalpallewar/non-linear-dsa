@@ -13,3 +13,7 @@ def lazy_propagation(
         tree.range_add(left, right, delta)
         sums.append(tree.query(0, len(values)))
     return sums
+
+
+if __name__ == "__main__":
+    print(lazy_propagation([1, 2, 3, 4], [(0, 4, 2), (1, 3, -1)]))

@@ -41,6 +41,8 @@ Adding car after cat reuses c→a and adds the r edge.
 
 Start with `trie_insert` in [implementation.py](implementation.py). Return the result for the completed prefix or key.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For L characters, expected time O(L + 1), with up to O(L) newly stored nodes and O(1) working space.
@@ -66,6 +68,8 @@ Mark the final prefix as a word even if every character edge already exists.
 A hash set is simpler when only exact membership queries matter.
 
 ## 15. Practice problems
+
+- LeetCode #208, Medium. Character edges and terminal markers. [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)
 
 **Original exercise · P1.** Modify the worked example by adding a leaf and predict what changes.
 

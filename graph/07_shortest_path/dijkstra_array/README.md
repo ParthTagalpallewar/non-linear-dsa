@@ -39,6 +39,8 @@ From 0 we discover 1 at cost 8 and 2 at cost 1. Selecting 2 first improves 1 to 
 
 Start with `dijkstra_array` in [implementation.py](implementation.py). Relax each outgoing edge of the minimum-distance vertex.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For V vertices and E directed edges, time is O(V² + E), with O(V) auxiliary space. Each minimum selection scans the vertex array.
@@ -64,6 +66,8 @@ Reject negative weights and use strict improvements so zero-weight cycles do not
 Use a heap to avoid scanning all vertices on sparse graphs.
 
 ## 15. Practice problems
+
+- LeetCode #743, Medium. Single-source nonnegative shortest paths. [Network Delay Time](https://leetcode.com/problems/network-delay-time/)
 
 **Original exercise · P1.** Trace the algorithm with a disconnected fourth vertex and explain its final distance.
 

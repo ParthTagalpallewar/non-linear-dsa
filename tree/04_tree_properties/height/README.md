@@ -42,6 +42,8 @@ Leaves 4 and 3 each return 0. After visiting node 2 and then the root, the resul
 
 Start with `height` in [implementation.py](implementation.py). Return the finalized measurement or predicate.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For N nodes and tree height H, time is O(N) and stack space O(H + 1).

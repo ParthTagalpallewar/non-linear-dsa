@@ -42,6 +42,8 @@ Start with `b_plus_tree_search` in [implementation.py](implementation.py). Updat
 
 See the complete [search, split, borrow, and merge code](../../b_plus_tree.py).
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For N records, minimum degree t, and height H=O(logₜ(N + 1)), search takes O(H log t) comparisons. Updates take O(t(H + 1)) time with Python list shifts. The index stores O(N) keys and child links.

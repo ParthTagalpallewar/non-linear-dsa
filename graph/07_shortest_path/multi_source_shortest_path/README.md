@@ -38,6 +38,8 @@ Sources 0 and 1 start at zero. Vertex 0 proposes 8 for vertex 2, then vertex 1 i
 
 Start with `multi_source_shortest_path` in [implementation.py](implementation.py). Apply minimum-distance relaxation until the heap empties.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For S input source entries, V vertices and E edges, time is O(S + (V + E) log(V + E + 1)) and auxiliary space is O(V + E).

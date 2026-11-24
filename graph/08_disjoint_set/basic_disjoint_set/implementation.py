@@ -24,3 +24,9 @@ class BasicDisjointSet:
             return False
         self.parent[second] = first
         return True
+
+
+if __name__ == "__main__":
+    sets = BasicDisjointSet(3)
+    sets.union(0, 1)
+    print(sets.find(1))

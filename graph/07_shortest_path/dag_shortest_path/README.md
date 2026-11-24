@@ -38,6 +38,8 @@ With 0→1 costing 2 and 1→2 costing −3, the distance array becomes [0, 2, �
 
 Start with `dag_shortest_path` in [implementation.py](implementation.py). Relax outgoing edges in topological order.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For V vertices and E edges, time is O(V + E). Auxiliary space is O(V + E) because topological sorting uses a projected adjacency list.

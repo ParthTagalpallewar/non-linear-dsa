@@ -42,6 +42,8 @@ The reported depths of nodes 1, 2, 3, 4 are 1, 2, 2, 3. The last node is 4, so t
 
 Start with `maximum_depth` in [implementation.py](implementation.py). Return the finalized measurement or predicate.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For N nodes and maximum number of nodes at a level W, worst-case time is O(N) and queue space O(W).

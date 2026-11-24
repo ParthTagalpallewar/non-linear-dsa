@@ -40,6 +40,8 @@ With values [1, 2, −2, 4], node 1 receives −2 and 4 and forwards 4 to node 0
 
 Start with `subtree_dp` in [implementation.py](implementation.py). Read the complete result from the computed states.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For N nodes, O(N) time and O(N) auxiliary space. The rooted tree has N−1 undirected edges.

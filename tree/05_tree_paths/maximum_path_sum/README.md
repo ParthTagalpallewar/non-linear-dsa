@@ -42,6 +42,8 @@ At node 2, arm 4 adds four to the value 2. At node 1, joining the arm worth 6 an
 
 Start with `maximum_path_sum` in [implementation.py](implementation.py). Produce the result from the completed traversal.
 
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For N nodes and height H, worst-case time is O(N) and auxiliary space O(H + 1), excluding output.

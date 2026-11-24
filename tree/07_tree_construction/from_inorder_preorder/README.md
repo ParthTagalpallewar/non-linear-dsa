@@ -42,6 +42,10 @@ Inorder [4, 2, 1, 3] splits at root 1 into [4, 2] and [3]. Build the left subtre
 
 Start with `from_inorder_preorder` in [implementation.py](implementation.py). Produce the result from the completed traversal.
 
+Run the example from the repository root with `uv run python -m tree.07_tree_construction.from_inorder_preorder.implementation`.
+
+Run the [lesson tests](test_implementation.py) for executable examples.
+
 ## 9. Time and space complexity
 
 For N nodes and height H, expected time is O(N) and auxiliary space O(N + H) for the index and stack.
