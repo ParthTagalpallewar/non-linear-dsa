@@ -315,6 +315,27 @@ uv run pytest graph/02_traversal/bfs
 - [ ] [LCA Using Euler Tour and Sparse Table](tree/17_tree_queries/lca_euler_sparse_table/README.md) · P3
 - [ ] [Static Path Sum Queries](tree/17_tree_queries/path_queries/README.md) · P2
 
+### Multiway Trees
+
+- [ ] [N-ary Tree Traversal](tree/18_multiway_trees/nary_traversal/README.md) · P1
+- [ ] [B-Tree](tree/18_multiway_trees/b_tree/README.md) · P3
+- [ ] [B-Tree Search](tree/18_multiway_trees/b_tree_search/README.md) · P3
+- [ ] [B-Tree Insertion](tree/18_multiway_trees/b_tree_insert/README.md) · P3
+- [ ] [B-Tree Deletion](tree/18_multiway_trees/b_tree_delete/README.md) · P3
+- [ ] [B+ Tree](tree/18_multiway_trees/b_plus_tree/README.md) · P3
+- [ ] [B+ Tree Search](tree/18_multiway_trees/b_plus_tree_search/README.md) · P3
+- [ ] [B+ Tree Insertion](tree/18_multiway_trees/b_plus_tree_insert/README.md) · P3
+- [ ] [B+ Tree Deletion](tree/18_multiway_trees/b_plus_tree_delete/README.md) · P3
+
+### Advanced Tree Algorithms
+
+- [ ] [Heavy-Light Decomposition](tree/19_advanced_trees/heavy_light_decomposition/README.md) · P3
+- [ ] [Centroid Decomposition](tree/19_advanced_trees/centroid_decomposition/README.md) · P3
+- [ ] [DSU on Tree Using Small-to-Large Merging](tree/19_advanced_trees/dsu_on_tree/README.md) · P3
+- [ ] [Unrooted Tree Isomorphism](tree/19_advanced_trees/tree_isomorphism/README.md) · P3
+- [ ] [Prüfer Sequence Encoding](tree/19_advanced_trees/prufer_encode/README.md) · P3
+- [ ] [Prüfer Sequence Decoding](tree/19_advanced_trees/prufer_decode/README.md) · P3
+
 ## Interview preparation checklist
 
 - [ ] Choose an adjacency list, adjacency matrix, or edge list for a given workload.
