@@ -8,7 +8,7 @@
 - [x] Phase 6 · Binary tree fundamentals, traversals, views, and properties
 - [x] Phase 7 · Tree paths, relationships, construction, transformation, and serialization
 - [x] Phase 8 · BST, balanced trees, heaps, and tries
-- [ ] Phase 9 · Segment trees, Fenwick trees, tree DP, and tree queries
+- [x] Phase 9 · Segment trees, Fenwick trees, tree DP, and tree queries
 - [ ] Phase 10 · Multiway trees and advanced tree algorithms
 - [ ] Phase 11 · Reference guides, complete index, and interview checklist
 - [ ] Phase 12 · Full verification on the completed project
@@ -16,14 +16,14 @@
 
 ## Verification
 
-The first 161 lessons have a 16-section README, implementation, and tests.
+The first 186 lessons have a 16-section README, implementation, and tests.
 On Python 3.12, locked dependency sync, Ruff linting and formatting checks,
-and pytest passed with 254 tests. Relative Markdown links resolved locally.
+and pytest passed with 279 tests. Relative Markdown links resolved locally.
 The CI workflow covers Python 3.10 and 3.14.
 
 ## Next task
 
-Start phase 9 with segment-tree aggregates and lazy range updates, then Fenwick trees, tree DP, and static tree queries.
+Start phase 10 with N-ary traversal, B-tree and B+ tree structural operations, then heavy-light and centroid decomposition, small-to-large merging, isomorphism and Prüfer coding.
 
 ## GitHub
 

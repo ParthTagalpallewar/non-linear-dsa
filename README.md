@@ -278,6 +278,43 @@ uv run pytest graph/02_traversal/bfs
 - [ ] [Bitwise Trie](tree/13_trie/bitwise_trie/README.md) · P2
 - [ ] [Maximum XOR Using a Bitwise Trie](tree/13_trie/maximum_xor/README.md) · P2
 
+### Segment Trees
+
+- [ ] [Segment Tree Construction](tree/14_segment_tree/segment_tree_construction/README.md) · P2
+- [ ] [Range Sum Query](tree/14_segment_tree/range_sum_query/README.md) · P2
+- [ ] [Range Min Query](tree/14_segment_tree/range_min_query/README.md) · P2
+- [ ] [Range Max Query](tree/14_segment_tree/range_max_query/README.md) · P2
+- [ ] [Segment Tree Point Update](tree/14_segment_tree/point_update/README.md) · P2
+- [ ] [Range Update](tree/14_segment_tree/range_update/README.md) · P2
+- [ ] [Lazy Propagation](tree/14_segment_tree/lazy_propagation/README.md) · P2
+
+### Fenwick Trees
+
+- [ ] [Binary Indexed Tree Construction](tree/15_fenwick_tree/fenwick_construction/README.md) · P2
+- [ ] [Fenwick Prefix Sum Query](tree/15_fenwick_tree/fenwick_prefix_sum/README.md) · P2
+- [ ] [Fenwick Range Sum Query](tree/15_fenwick_tree/fenwick_range_sum/README.md) · P2
+- [ ] [Fenwick Point Update](tree/15_fenwick_tree/fenwick_point_update/README.md) · P2
+- [ ] [Fenwick Range Update](tree/15_fenwick_tree/fenwick_range_update/README.md) · P2
+
+### Tree Dynamic Programming
+
+- [ ] [Subtree Dynamic Programming](tree/16_tree_dp/subtree_dp/README.md) · P2
+- [ ] [Maximum Independent Set on a Tree](tree/16_tree_dp/maximum_independent_set/README.md) · P2
+- [ ] [House Robber III](tree/16_tree_dp/house_robber_iii/README.md) · P2
+- [ ] [Tree Diameter Using DP](tree/16_tree_dp/tree_diameter_dp/README.md) · P2
+- [ ] [Rerooting Dynamic Programming](tree/16_tree_dp/rerooting_dp/README.md) · P2
+- [ ] [Sum of Distances in a Tree](tree/16_tree_dp/sum_of_distances/README.md) · P2
+
+### Tree Queries
+
+- [ ] [Binary Lifting](tree/17_tree_queries/binary_lifting/README.md) · P2
+- [ ] [Kth Ancestor Using Binary Lifting](tree/17_tree_queries/kth_ancestor_binary_lifting/README.md) · P2
+- [ ] [LCA Using Binary Lifting](tree/17_tree_queries/lca_binary_lifting/README.md) · P2
+- [ ] [Euler Tour](tree/17_tree_queries/euler_tour/README.md) · P2
+- [ ] [Subtree Queries Using an Euler Tour](tree/17_tree_queries/subtree_queries/README.md) · P2
+- [ ] [LCA Using Euler Tour and Sparse Table](tree/17_tree_queries/lca_euler_sparse_table/README.md) · P3
+- [ ] [Static Path Sum Queries](tree/17_tree_queries/path_queries/README.md) · P2
+
 ## Interview preparation checklist
 
 - [ ] Choose an adjacency list, adjacency matrix, or edge list for a given workload.
