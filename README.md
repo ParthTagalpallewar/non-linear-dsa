@@ -230,6 +230,54 @@ uv run pytest graph/02_traversal/bfs
 - [ ] [Serialization and Deserialization Using BFS](tree/09_serialization/serialize_bfs/README.md) · P1
 - [ ] [Serialization and Deserialization Using DFS](tree/09_serialization/serialize_dfs/README.md) · P1
 
+### Binary Search Trees
+
+- [ ] [BST Search](tree/10_binary_search_tree/bst_search/README.md) · P1
+- [ ] [BST Insertion](tree/10_binary_search_tree/bst_insert/README.md) · P1
+- [ ] [BST Deletion](tree/10_binary_search_tree/bst_delete/README.md) · P1
+- [ ] [BST Validation](tree/10_binary_search_tree/bst_validate/README.md) · P1
+- [ ] [BST Floor](tree/10_binary_search_tree/bst_floor/README.md) · P1
+- [ ] [BST Ceil](tree/10_binary_search_tree/bst_ceil/README.md) · P1
+- [ ] [Inorder Successor](tree/10_binary_search_tree/inorder_successor/README.md) · P1
+- [ ] [Inorder Predecessor](tree/10_binary_search_tree/inorder_predecessor/README.md) · P1
+- [ ] [Kth Smallest Element](tree/10_binary_search_tree/kth_smallest/README.md) · P1
+- [ ] [Kth Largest Element](tree/10_binary_search_tree/kth_largest/README.md) · P1
+- [ ] [BST Iterator](tree/10_binary_search_tree/bst_iterator/README.md) · P1
+- [ ] [Recover Binary Search Tree](tree/10_binary_search_tree/recover_bst/README.md) · P1
+- [ ] [Two Sum in a BST](tree/10_binary_search_tree/bst_two_sum/README.md) · P1
+
+### Balanced Trees
+
+- [ ] [Left Rotation](tree/11_balanced_trees/rotate_left/README.md) · P2
+- [ ] [Right Rotation](tree/11_balanced_trees/rotate_right/README.md) · P2
+- [ ] [Left–Right Rotation](tree/11_balanced_trees/rotate_left_right/README.md) · P2
+- [ ] [Right–Left Rotation](tree/11_balanced_trees/rotate_right_left/README.md) · P2
+- [ ] [AVL Tree](tree/11_balanced_trees/avl_tree/README.md) · P2
+- [ ] [AVL Tree Insertion and Deletion](tree/11_balanced_trees/avl_updates/README.md) · P2
+- [ ] [Red-Black Tree](tree/11_balanced_trees/red_black_tree/README.md) · P3
+- [ ] [Red-Black Tree Insertion and Deletion](tree/11_balanced_trees/red_black_updates/README.md) · P3
+
+### Heaps
+
+- [ ] [Min Heap](tree/12_heap/min_heap/README.md) · P1
+- [ ] [Max Heap](tree/12_heap/max_heap/README.md) · P1
+- [ ] [Heapify](tree/12_heap/heapify/README.md) · P1
+- [ ] [Build Heap](tree/12_heap/build_heap/README.md) · P1
+- [ ] [Heap Insertion](tree/12_heap/heap_insert/README.md) · P1
+- [ ] [Heap Deletion](tree/12_heap/heap_delete/README.md) · P1
+- [ ] [Heap Sort](tree/12_heap/heap_sort/README.md) · P1
+- [ ] [Priority Queue Using heapq](tree/12_heap/heapq_priority_queue/README.md) · P1
+
+### Tries
+
+- [ ] [Trie Insertion](tree/13_trie/trie_insert/README.md) · P1
+- [ ] [Trie Search](tree/13_trie/trie_search/README.md) · P1
+- [ ] [Trie Deletion](tree/13_trie/trie_delete/README.md) · P1
+- [ ] [Prefix Search](tree/13_trie/prefix_search/README.md) · P1
+- [ ] [Autocomplete Using a Trie](tree/13_trie/autocomplete/README.md) · P2
+- [ ] [Bitwise Trie](tree/13_trie/bitwise_trie/README.md) · P2
+- [ ] [Maximum XOR Using a Bitwise Trie](tree/13_trie/maximum_xor/README.md) · P2
+
 ## Interview preparation checklist
 
 - [ ] Choose an adjacency list, adjacency matrix, or edge list for a given workload.
