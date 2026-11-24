@@ -5,7 +5,7 @@
 - [x] Phase 3 · Graph connectivity, cycle detection, coloring, and topological sorting
 - [x] Phase 4 · Shortest paths, disjoint sets, and minimum spanning trees
 - [x] Phase 5 · SCCs, bridges, articulation points, special paths, DAG DP, flow, and matching
-- [ ] Phase 6 · Binary tree fundamentals, traversals, views, and properties
+- [x] Phase 6 · Binary tree fundamentals, traversals, views, and properties
 - [ ] Phase 7 · Tree paths, relationships, construction, transformation, and serialization
 - [ ] Phase 8 · BST, balanced trees, heaps, and tries
 - [ ] Phase 9 · Segment trees, Fenwick trees, tree DP, and tree queries
@@ -16,14 +16,14 @@
 
 ## Verification
 
-The first 73 lessons have a 16-section README, implementation, and tests.
+The first 102 lessons have a 16-section README, implementation, and tests.
 On Python 3.12, locked dependency sync, Ruff linting and formatting checks,
-and pytest passed with 144 tests. Relative Markdown links resolved locally.
+and pytest passed with 185 tests. Relative Markdown links resolved locally.
 The CI workflow covers Python 3.10 and 3.14.
 
 ## Next task
 
-Start phase 6 with reusable binary and N-ary node types and tree terminology, then implement the binary-tree traversal, view, and property lessons.
+Start phase 7 with root-to-leaf and arbitrary-downward path lessons. Continue with identity-based relationships, reconstruction, transformations, and both serializers.
 
 ## GitHub
 

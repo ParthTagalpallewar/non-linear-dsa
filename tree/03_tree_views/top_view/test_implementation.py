@@ -1,0 +1,9 @@
+from tree.nodes import BinaryNode
+
+from .implementation import top_view
+
+
+def test_shared_column_and_missing_children():
+    root = BinaryNode(1, BinaryNode(2, BinaryNode(4), BinaryNode(5)), BinaryNode(3))
+    assert top_view(root) == [4, 2, 1, 3]
+    assert top_view(None) == []

@@ -151,6 +151,47 @@ uv run pytest graph/02_traversal/bfs
 - [ ] [Hopcroft–Karp Algorithm](graph/15_graph_matching/hopcroft_karp/README.md) · P3
 - [ ] [Hungarian Assignment Algorithm](graph/15_graph_matching/hungarian/README.md) · P3
 
+### Tree Fundamentals
+
+- [ ] [Binary Tree Node](tree/01_fundamentals/binary_node/README.md) · P1
+- [ ] [N-ary Tree Node](tree/01_fundamentals/nary_node/README.md) · P1
+
+### Binary Tree Traversal
+
+- [ ] [Inorder Traversal (Recursive)](tree/02_binary_tree_traversal/inorder_recursive/README.md) · P1
+- [ ] [Inorder Traversal (Iterative)](tree/02_binary_tree_traversal/inorder_iterative/README.md) · P1
+- [ ] [Preorder Traversal (Recursive)](tree/02_binary_tree_traversal/preorder_recursive/README.md) · P1
+- [ ] [Preorder Traversal (Iterative)](tree/02_binary_tree_traversal/preorder_iterative/README.md) · P1
+- [ ] [Postorder Traversal (Recursive)](tree/02_binary_tree_traversal/postorder_recursive/README.md) · P1
+- [ ] [Postorder Traversal (Iterative)](tree/02_binary_tree_traversal/postorder_iterative/README.md) · P1
+- [ ] [Level Order Traversal](tree/02_binary_tree_traversal/level_order/README.md) · P1
+- [ ] [Reverse Level Order Traversal](tree/02_binary_tree_traversal/reverse_level_order/README.md) · P1
+- [ ] [Zigzag Traversal](tree/02_binary_tree_traversal/zigzag/README.md) · P1
+- [ ] [Boundary Traversal](tree/02_binary_tree_traversal/boundary/README.md) · P1
+- [ ] [Morris Inorder Traversal](tree/02_binary_tree_traversal/morris_inorder/README.md) · P2
+- [ ] [Morris Preorder Traversal](tree/02_binary_tree_traversal/morris_preorder/README.md) · P2
+
+### Tree Views
+
+- [ ] [Left View](tree/03_tree_views/left_view/README.md) · P1
+- [ ] [Right View](tree/03_tree_views/right_view/README.md) · P1
+- [ ] [Top View](tree/03_tree_views/top_view/README.md) · P1
+- [ ] [Bottom View](tree/03_tree_views/bottom_view/README.md) · P1
+- [ ] [Vertical Order Traversal](tree/03_tree_views/vertical_order/README.md) · P1
+
+### Tree Properties
+
+- [ ] [Height of a Binary Tree](tree/04_tree_properties/height/README.md) · P1
+- [ ] [Count Nodes](tree/04_tree_properties/count_nodes/README.md) · P1
+- [ ] [Count Leaf Nodes](tree/04_tree_properties/count_leaves/README.md) · P1
+- [ ] [Maximum Depth](tree/04_tree_properties/maximum_depth/README.md) · P1
+- [ ] [Minimum Depth](tree/04_tree_properties/minimum_depth/README.md) · P1
+- [ ] [Diameter of a Binary Tree](tree/04_tree_properties/diameter/README.md) · P1
+- [ ] [Maximum Width](tree/04_tree_properties/maximum_width/README.md) · P1
+- [ ] [Balanced Binary Tree Check](tree/04_tree_properties/is_balanced/README.md) · P1
+- [ ] [Symmetric Tree Check](tree/04_tree_properties/is_symmetric/README.md) · P1
+- [ ] [Identical Trees Check](tree/04_tree_properties/are_identical/README.md) · P1
+
 ## Interview preparation checklist
 
 - [ ] Choose an adjacency list, adjacency matrix, or edge list for a given workload.
