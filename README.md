@@ -79,6 +79,38 @@ uv run pytest graph/02_traversal/bfs
 - [ ] [Dependency Resolution](graph/06_topological_sort/dependency_resolution/README.md) · P1
 - [ ] [DAG Task Scheduling](graph/06_topological_sort/dag_task_scheduling/README.md) · P1
 
+### Shortest Paths
+
+- [ ] [Unweighted Shortest Paths Using BFS](graph/07_shortest_path/unweighted_bfs/README.md) · P1
+- [ ] [Shortest Paths in a DAG](graph/07_shortest_path/dag_shortest_path/README.md) · P1
+- [ ] [Dijkstra Using a Priority Queue](graph/07_shortest_path/dijkstra_heap/README.md) · P1
+- [ ] [Dijkstra Using an Array](graph/07_shortest_path/dijkstra_array/README.md) · P1
+- [ ] [Bellman–Ford](graph/07_shortest_path/bellman_ford/README.md) · P2
+- [ ] [Floyd–Warshall](graph/07_shortest_path/floyd_warshall/README.md) · P2
+- [ ] [0–1 BFS](graph/07_shortest_path/zero_one_bfs/README.md) · P2
+- [ ] [A* Search](graph/07_shortest_path/a_star/README.md) · P2
+- [ ] [Multi-Source Weighted Shortest Paths](graph/07_shortest_path/multi_source_shortest_path/README.md) · P2
+- [ ] [Shortest Path Reconstruction](graph/07_shortest_path/shortest_path_reconstruction/README.md) · P1
+- [ ] [Johnson’s All-Pairs Shortest Paths](graph/07_shortest_path/johnson/README.md) · P3
+
+### Disjoint Sets
+
+- [ ] [Basic Disjoint Set](graph/08_disjoint_set/basic_disjoint_set/README.md) · P1
+- [ ] [Find Ultimate Parent](graph/08_disjoint_set/find_ultimate_parent/README.md) · P1
+- [ ] [Path Compression](graph/08_disjoint_set/compress_path/README.md) · P1
+- [ ] [Union by Rank](graph/08_disjoint_set/union_by_rank/README.md) · P1
+- [ ] [Union by Size](graph/08_disjoint_set/union_by_size/README.md) · P1
+- [ ] [Dynamic Connectivity with Insertions](graph/08_disjoint_set/dynamic_connectivity/README.md) · P1
+- [ ] [Lexicographically Smallest Equivalent String](graph/08_disjoint_set/smallest_equivalent_string/README.md) · P1
+
+### Minimum Spanning Trees
+
+- [ ] [Prim’s Algorithm Using a Priority Queue](graph/09_minimum_spanning_tree/prim_heap/README.md) · P2
+- [ ] [Prim’s Algorithm Using an Array](graph/09_minimum_spanning_tree/prim_array/README.md) · P2
+- [ ] [Kruskal’s Algorithm](graph/09_minimum_spanning_tree/kruskal/README.md) · P1
+- [ ] [Borůvka’s Algorithm](graph/09_minimum_spanning_tree/boruvka/README.md) · P3
+- [ ] [Minimum Spanning Forest](graph/09_minimum_spanning_tree/minimum_spanning_forest/README.md) · P2
+
 ## Interview preparation checklist
 
 - [ ] Choose an adjacency list, adjacency matrix, or edge list for a given workload.

@@ -3,7 +3,7 @@
 - [x] Phase 1 · Topic structure, uv dependencies, Ruff, pytest, GitHub Actions
 - [x] Phase 2 · Three graph representations and nine traversal lessons
 - [x] Phase 3 · Graph connectivity, cycle detection, coloring, and topological sorting
-- [ ] Phase 4 · Shortest paths, disjoint sets, and minimum spanning trees
+- [x] Phase 4 · Shortest paths, disjoint sets, and minimum spanning trees
 - [ ] Phase 5 · SCCs, bridges, articulation points, special paths, DAG DP, flow, and matching
 - [ ] Phase 6 · Binary tree fundamentals, traversals, views, and properties
 - [ ] Phase 7 · Tree paths, relationships, construction, transformation, and serialization
@@ -16,19 +16,14 @@
 
 ## Verification
 
-The first 28 lessons have a 16-section README, implementation, and tests.
+The first 51 lessons have a 16-section README, implementation, and tests.
 On Python 3.12, locked dependency sync, Ruff linting and formatting checks,
-and pytest passed with 57 tests. Relative Markdown links resolved locally.
+and pytest passed with 98 tests. Relative Markdown links resolved locally.
 The CI workflow covers Python 3.10 and 3.14.
 
 ## Next task
 
-Start phase 4 with unweighted BFS and DAG shortest paths in
-`graph/07_shortest_path`. Implement the remaining shortest-path lessons
-from the original request, including both Dijkstra variants, Johnson and
-path reconstruction. Reuse the size-based DSU and path halving implementation
-in `graph/disjoint_set.py` for DSU lessons and Kruskal/Borůvka where useful.
-Then document and verify all five MST lessons.
+Start phase 5 with Kosaraju and Tarjan SCC, then implement bridges and articulation points, Eulerian and Hamiltonian paths, DAG DP, flow and cuts, and graph matching.
 
 ## GitHub
 
