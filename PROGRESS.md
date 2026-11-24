@@ -11,21 +11,27 @@
 - [x] Phase 9 · Segment trees, Fenwick trees, tree DP, and tree queries
 - [x] Phase 10 · Multiway trees and advanced tree algorithms
 - [x] Phase 11 · Reference guides, complete index, and interview checklist
-- [ ] Phase 12 · Full verification on the completed project
+- [x] Phase 12 · Full verification on the completed project
 - [ ] Phase 13 · Acceptance audit and GitHub push
 
 ## Verification
 
-All 205 lessons have a 16-section README, implementation, and tests.
-On Python 3.12, locked dependency sync, Ruff linting and formatting checks,
-and pytest passed with 299 tests. Relative Markdown links resolved locally.
-The CI workflow covers Python 3.10 and 3.14.
+| Local Python | Dependency sync | Ruff lint | Ruff format check | pytest |
+| --- | --- | --- | --- | --- |
+| 3.10.22 | Passed | Passed | Passed | 301 passed |
+| 3.12.16 | Passed | Passed | Passed | 301 passed |
+| 3.14.6 | Passed | Passed | Passed | 301 passed |
+
+The verification includes cross-checks against brute-force or independent
+implementations for small inputs. Mixed-operation tests check ordering,
+heights, black counts, occupancy, equal leaf depth, and B+ leaf links.
 
 ## Next task
 
-Run the full verification matrix and audit the original topic inventory before pushing.
+Record the acceptance audit and push the verified commits to GitHub.
 
 ## GitHub
 
-The user published [the GitHub repository](https://github.com/ParthTagalpallewar/non-linear-dsa).
-Local `main` tracks `origin/main`.
+The [GitHub repository](https://github.com/ParthTagalpallewar/non-linear-dsa)
+is public and uses `main` as its default branch. The GitHub Actions matrix
+runs on pushes and pull requests for Python 3.10 and 3.14.
